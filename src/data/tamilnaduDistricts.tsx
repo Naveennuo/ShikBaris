@@ -236,6 +236,21 @@ export const DISTRICTS: Record<string, District> = {
   ],
 },
 
+  kollimalaihills: {
+    title: "Kolli Malai Hills",
+    banner: b("kollimalaihills.jpg"),
+    sights: [
+      { name: "Aagaya Gangai Falls", img: p("kollimalaihills", "aagaya-gangai-falls.jpg") },
+      { name: "Kolli Malai Forest", img: p("kollimalaihills", "kolli-malai-forest.jpg") },
+      { name: "Seeku Parai View Point", img: p("kollimalaihills", "seeku-parai-view-point.jpg") },
+      { name: "Namma Aruvi Falls", img: p("kollimalaihills", "namma-aruvi-falls.jpg") },
+      { name: "Kolli Hills Bend View", img: p("kollimalaihills", "kolli-hills-bend-view.jpg") },
+      { name: "Maasila Falls", img: p("kollimalaihills", "maasila-falls.jpg") },
+      { name: "Pulian Cholai View Point", img: p("kollimalaihills", "pulian-cholai-view-point.jpg") },
+      { name: "Kolli Malai Trekking", img: p("kollimalaihills", "kolli-malai-trekking.jpg") },
+    ],
+  },
+
 
 
 };
