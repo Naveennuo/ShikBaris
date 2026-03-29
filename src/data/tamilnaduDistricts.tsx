@@ -116,7 +116,7 @@ export const DISTRICTS: Record<string, District> = {
       { name: "Sri Brihadeeswara Temple", img: p("thanjavur", "brihadeeswara-temple.png") },
       { name: "Thanjavur Maratha Palace", img: p("thanjavur", "maratha-palace.webp") },
       { name: "Saraswathi Mahal Library", img: p("thanjavur", "saraswathi-mahal-library.jpg") },
-      { name: "Punnainallur Mariamman Temple", img: p("thanjavur", "punnainallur-mariamman.webp") },
+      { name: "Punnainallur Mariamman Temple", img: p("thanjavur", "punnainallur-mariamman.jpeg") },
       { name: "Rajaraja Chola Manimandapam", img: p("thanjavur", "rajaraja-chola-manimandapam.jpg") },
       { name: "Thanjavur Art Gallery", img: p("thanjavur", "art-gallery.webp") },
       { name: "Poondi Madha Church", img: p("thanjavur", "poondi-madha-church.jpg") },
@@ -238,7 +238,7 @@ export const DISTRICTS: Record<string, District> = {
 
   kollimalaihills: {
     title: "Kolli Malai Hills",
-    banner: b("kollimalaihills.jpg"),
+    banner: b("kollimalaihills.jpeg"),
     sights: [
       { name: "Aagaya Gangai Falls", img: p("kollimalaihills", "aagaya-gangai-falls.jpg") },
       { name: "Kolli Malai Forest", img: p("kollimalaihills", "kolli-malai-forest.jpg") },
@@ -246,8 +246,8 @@ export const DISTRICTS: Record<string, District> = {
       { name: "Namma Aruvi Falls", img: p("kollimalaihills", "namma-aruvi-falls.jpg") },
       { name: "Kolli Hills Bend View", img: p("kollimalaihills", "kolli-hills-bend-view.jpg") },
       { name: "Maasila Falls", img: p("kollimalaihills", "maasila-falls.jpg") },
-      { name: "Pulian Cholai View Point", img: p("kollimalaihills", "pulian-cholai-view-point.jpg") },
-      { name: "Kolli Malai Trekking", img: p("kollimalaihills", "kolli-malai-trekking.jpg") },
+      { name: "Pulian Cholai View Point", img: p("kollimalaihills", "pulian-cholai-view-point.jpeg") },
+      { name: "Kolli Malai Trekking", img: p("kollimalaihills", "kolli-malai-trekking.JPG") },
     ],
   },
 

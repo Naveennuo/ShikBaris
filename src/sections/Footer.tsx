@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
-const logo = new URL("../assets/ShiGOlogo.svg", import.meta.url).href;
+const logo = new URL("../assets/ShiGOlogo1.svg", import.meta.url).href;
 const nav = ["India", "International", "Luxury", "Car Rental", "Contact"];
 
 export default function Footer() {

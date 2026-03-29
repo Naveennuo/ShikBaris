@@ -17,16 +17,18 @@ const Thiruvannamalai = new URL("../../assets/tamilnadu/district/thiruvannamalai
 const Courtallam = new URL("../../assets/tamilnadu/district/courtallam.jpg", import.meta.url).href;
 const TheniandCumbum = new URL("../../assets/tamilnadu/district/theniandcumbum.jpg", import.meta.url).href;
 const Kanyakumari = new URL("../../assets/tamilnadu/district/kanyakumari.jpg", import.meta.url).href;
-const KolliMalaiHills = new URL("../../assets/tamilnadu/district/kollimalaihills.jpg", import.meta.url).href;
-const Salem = new URL("../../assets/tamilnadu/district/salem.jpg", import.meta.url).href;
+const KolliMalaiHills = new URL("../../assets/tamilnadu/district/kollimalaihills.jpeg", import.meta.url).href;
+const Salem = new URL("../../assets/tamilnadu/district/salem.jpeg", import.meta.url).href;
 const Madurai = new URL("../../assets/tamilnadu/district/madurai.jpg", import.meta.url).href;
-const Megamalai = new URL("../../assets/tamilnadu/district/megamalai.jpg", import.meta.url).href;
-const Rameshwaram = new URL("../../assets/tamilnadu/district/rameshwaram.webp", import.meta.url).href;
+const Megamalai = new URL("../../assets/tamilnadu/district/megamalai.jpeg", import.meta.url).href;
+const Rameshwaram = new URL("../../assets/tamilnadu/district/rameshwaram.jpeg", import.meta.url).href;
 const Vellore = new URL("../../assets/tamilnadu/district/vellore.jpg", import.meta.url).href;
 const Tuticorin = new URL("../../assets/tamilnadu/district/tuticorin.jpg", import.meta.url).href;
 const Kumbakonam = new URL("../../assets/tamilnadu/district/kumbakonam.jpeg", import.meta.url).href;
 const Chidambaram = new URL("../../assets/tamilnadu/district/chidambaram.jpg", import.meta.url).href;
 const Velankanni = new URL("../../assets/tamilnadu/district/velankanni.jpg", import.meta.url).href;
+const Yercaud = new URL("../../assets/tamilnadu/district/yercaud.jpg", import.meta.url).href;
+const Hogenakkal = new URL("../../assets/tamilnadu/district/hogenakkal.jpg", import.meta.url).href;
 
 /* ================== DATA ================== */
 const districts = [

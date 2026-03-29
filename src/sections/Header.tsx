@@ -80,12 +80,12 @@ export default function HeaderWithWhatsApp() {
     <>
       {/* ================= HEADER ================= */}
       <header className="absolute top-0 left-0 w-full z-40">
-        <div className="flex items-center justify-between h-16 md:h-20 px-4 md:px-10 bg-[#000721]/100 backdrop-blur">
+        <div className="flex items-center justify-between h-16 md:h-20 px-4 md:px-10 bg-[#f0f0f0] backdrop-blur">
           <Link to="/" className="flex items-center">
             <img src={logo} alt="ShiGO" className="h-9 md:h-10 lg:h-11 cursor-pointer" />
           </Link>
 
-          <nav className="hidden md:flex gap-4 md:gap-6 lg:gap-8 xl:gap-10 text-white  font-medium">
+          <nav className="hidden md:flex gap-4 md:gap-6 lg:gap-8 xl:gap-10 text-[#000721]  font-medium">
             {nav.map((n) => (
               <span key={n} className="cursor-pointer hover:text-[#0092fb]">
                 {n}
