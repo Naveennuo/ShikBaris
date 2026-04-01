@@ -238,7 +238,7 @@ export const DISTRICTS: Record<string, District> = {
 
   kollimalaihills: {
     title: "Kolli Malai Hills",
-    banner: b("kollimalaihills.jpeg"),
+    banner: b("kollimalaihills.jpg"),
     sights: [
       { name: "Aagaya Gangai Falls", img: p("kollimalaihills", "aagaya-gangai-falls.jpg") },
       { name: "Kolli Malai Forest", img: p("kollimalaihills", "kolli-malai-forest.jpg") },
@@ -251,7 +251,241 @@ export const DISTRICTS: Record<string, District> = {
     ],
   },
 
+  salem: {
+    title: "Salem",
+    banner: b("salem.jpg"),
+    sights: [
+      { name: "1008 Siva & Rajarajeshwari Temple", img: p("salem", "1008-siva-rajarajeshwari-temple.jpg") },
+      { name: "Muthumalai Murugan Temple", img: p("salem", "muthumalai-murugan-temple.jpg") },
+    ],
+  },
 
+  madurai: {
+    title: "Madurai",
+    banner: b("madurai.jpg"),
+    sights: [
+      { name: "Meenakshi Amman Temple", img: p("madurai", "meenakshi-amman-temple.jpg") },
+      { name: "Koodal Azhagar Temple", img: p("madurai", "koodal-azhagar-temple.jpg") },
+      { name: "Gandhi Museum", img: p("madurai", "gandhi-museum.jpg") },
+      { name: "Thirupparankundram Murugan Temple", img: p("madurai", "thirupparankundram-murugan-temple.jpg") },
+      { name: "Thirumalai Nayakkar Palace", img: p("madurai", "thirumalai-nayakkar-palace.jpg") },
+      { name: "Vandiyur Mariamman Temple", img: p("madurai", "vandiyur-mariamman-temple.jpg") },
+      { name: "Samanar Hill", img: p("madurai", "samanar-hill.jpg") },
+      { name: "Puthu Mandapam", img: p("madurai", "puthu-mandapam.jpg") },
+      { name: "Thirumogoor Temple", img: p("madurai", "thirumogoor-temple.jpg") },
+      { name: "Alagar Kovil", img: p("madurai", "alagar-kovil.jpg") },
+      { name: "Palamudircholai", img: p("madurai", "palamudircholai.jpg") },
+      { name: "Thousand Pillars", img: p("madurai", "thousand-pillars.jpg") },
+      { name: "Narasingam", img: p("madurai", "narasingam.jpg") },
+      { name: "Athisayam", img: p("madurai", "athisayam.jpg") },
+    ],
+  },
+
+  hogenakkal: {
+    title: "Hogenakkal",
+    banner: b("hogenakkal.jpg"),
+    sights: [
+      { name: "Main Water Falls", img: p("hogenakkal", "main-water-falls.jpg") },
+      { name: "Boating", img: p("hogenakkal", "boating.jpg") },
+      { name: "Coracle Ride", img: p("hogenakkal", "coracle-ride.jpg") },
+      { name: "View Point", img: p("hogenakkal", "view-point.jpg") },
+      { name: "Crocodile Park", img: p("hogenakkal", "crocodile-park.jpg") },
+      { name: "Cini Water Falls", img: p("hogenakkal", "cini-water-falls.jpg") },
+      { name: "Gopinatham Dam", img: p("hogenakkal", "gopinatham-dam.jpg") },
+      { name: "Hanging Bridge", img: p("hogenakkal", "hanging-bridge.jpg") },
+    ],
+  },
+
+  yercaud: {
+    title: "Yercaud",
+    banner: b("yercaud.jpg"),
+    sights: [
+      { name: "Pagoda view point", img: p("yercaud", "pagoda-view-point.jpg") },
+      { name: "Kiliyur Falls", img: p("yercaud", "kiliyur-falls.jpg") },
+      { name: "Peeku park", img: p("yercaud", "peeku-park.jpg") },
+      { name: "Karadiyur view point", img: p("yercaud", "karadiyur-view-point.jpg") },
+      { name: "Ladies seat", img: p("yercaud", "ladies-seat.jpg") },
+      { name: "Emerald Lake", img: p("yercaud", "emerald-lake.jpg") },
+      { name: "Manjakuttai sunrise", img: p("yercaud", "manjakuttai-sunrise.jpg") },
+      { name: "Shevaroy Hills", img: p("yercaud", "shevaroy-hills.jpg") },
+      { name: "Children's seat", img: p("yercaud", "childrens-seat.jpg") },
+      { name: "Botanical garden", img: p("yercaud", "botanical-garden.jpg") },
+    ],
+  },
+
+  pollachi: {
+    title: "Pollachi",
+    banner: b("pollachi.jpg"),
+    sights: [
+      { name: "Monkey Falls", img: p("pollachi", "monkey-falls.jpg") },
+      { name: "Top Slip", img: p("pollachi", "top-slip.jpg") },
+      { name: "Anamalai Tiger Reserv Forest", img: p("pollachi", "anamalai-tiger-reserv-forest.jpg") },
+      { name: "Masani Amman Temple", img: p("pollachi", "masani-amman-temple.jpg") },
+      { name: "Thirumoorthy Hill's", img: p("pollachi", "thirumoorthy-hills.jpg") },
+      { name: "Crocodile Park", img: p("pollachi", "crocodile-park.jpg") },
+      { name: "Amaravati Dam", img: p("pollachi", "amaravati-dam.jpg") },
+    ],
+  },
+
+  valparai: {
+    title: "Valparai",
+    banner: b("valparai.jpg"),
+    sights: [
+      { name: "Balaji temple", img: p("valparai", "balaji-temple.jpg") },
+      { name: "Aliyar Dam", img: p("valparai", "aliyar-dam.jpg") },
+      { name: "Indira Gandhi wildlife sanctuary and National park", img: p("valparai", "indira-gandhi-wildlife-sanctuary-and-national-park.jpg") },
+      { name: "Nallamudi view point", img: p("valparai", "nallamudi-view-point.jpg") },
+      { name: "Loam's view point", img: p("valparai", "loams-view-point.jpg") },
+      { name: "Sholayar Dam", img: p("valparai", "sholayar-dam.jpg") },
+      { name: "Koolangal river", img: p("valparai", "koolangal-river.jpg") },
+      { name: "Chinna kallar falls", img: p("valparai", "chinna-kallar-falls.jpg") },
+      { name: "Grass Hill's", img: p("valparai", "grass-hills.jpg") },
+      { name: "Karamalai Annai Velankanni church", img: p("valparai", "karamalai-annai-velankanni-church.jpg") },
+      { name: "Chitti Vinayagar temple", img: p("valparai", "chitti-vinayagar-temple.jpg") },
+      { name: "Nirar dam", img: p("valparai", "nirar-dam.jpg") },
+    ],
+  },
+
+  parambikulam: {
+    title: "Parambikulam",
+    banner: b("parambikulam.jpg"),
+    sights: [
+      { name: "Tiger Reserv Forest", img: p("parambikulam", "tiger-reserv-forest.jpg") },
+      { name: "Kannimara Teak", img: p("parambikulam", "kannimara-teak.jpg") },
+      { name: "Parambikulam Dam View", img: p("parambikulam", "parambikulam-dam-view.jpg") },
+      { name: "Peraruvi Island Nest", img: p("parambikulam", "peraruvi-island-nest.jpg") },
+      { name: "Thunakadavu Tree Top Hut", img: p("parambikulam", "thunakadavu-tree-top-hut.jpg") },
+      { name: "Nelliyampathy Reserv Forest", img: p("parambikulam", "nelliyampathy-reserv-forest.jpg") },
+      { name: "Thunakadavu Dam view point", img: p("parambikulam", "thunakadavu-dam-view-point.jpg") },
+    ],
+  },
+
+  palani: {
+    title: "Palani",
+    banner: b("palani.jpg"),
+    sights: [
+      { name: "Murugan Temple", img: p("palani", "murugan-temple.jpg") },
+      { name: "Varathamanathi Dam", img: p("palani", "varathamanathi-dam.jpg") },
+      { name: "Kuthiraiyar Dam", img: p("palani", "kuthiraiyar-dam.jpg") },
+      { name: "Kuthiraiyar Falls", img: p("palani", "kuthiraiyar-falls.jpg") },
+      { name: "Dhandayudhapani temple", img: p("palani", "dhandayudhapani-temple.jpg") },
+      { name: "Periyanayaki amman temple", img: p("palani", "periyanayaki-amman-temple.jpg") },
+      { name: "Idumpan temple", img: p("palani", "idumpan-temple.jpg") },
+      { name: "Palar Dam", img: p("palani", "palar-dam.jpg") },
+    ],
+  },
+
+  rameshwaram: {
+    title: "Rameshwaram",
+    banner: b("rameshwaram.jpg"),
+    sights: [
+      { name: "Ramanatha Swamy Temple", img: p("rameshwaram", "ramanatha-swamy-temple.jpg") },
+      { name: "Ariyaman Beach", img: p("rameshwaram", "ariyaman-beach.jpg") },
+      { name: "Pamban Bridge", img: p("rameshwaram", "pamban-bridge.jpg") },
+      { name: "A.P.J. Abdul Kalam Memorial", img: p("rameshwaram", "apj-abdul-kalam-memorial.jpg") },
+      { name: "Villoondi Theertham", img: p("rameshwaram", "villoondi-theertham.jpg") },
+      { name: "Laxmanan Theertham", img: p("rameshwaram", "laxmanan-theertham.jpg") },
+      { name: "Nadarajar Temple", img: p("rameshwaram", "nadarajar-temple.jpg") },
+      { name: "Panjamugi Hanuman Temple", img: p("rameshwaram", "panjamugi-hanuman-temple.jpg") },
+      { name: "Ramar Temple & Theertham", img: p("rameshwaram", "ramar-temple-and-theertham.jpg") },
+      { name: "Ramar Padam", img: p("rameshwaram", "ramar-padam.jpg") },
+      { name: "Agni Theertham", img: p("rameshwaram", "agni-theertham.jpg") },
+      { name: "Government Boating", img: p("rameshwaram", "government-boating.jpg") },
+      { name: "A.P.J Abdul Kalam House", img: p("rameshwaram", "apj-abdul-kalam-house.jpg") },
+      { name: "Kothanda Ramar Temple", img: p("rameshwaram", "kothanda-ramar-temple.jpg") },
+      { name: "Dhanushkodi", img: p("rameshwaram", "dhanushkodi.jpg") },
+      { name: "Last End Of India Border", img: p("rameshwaram", "last-end-of-india-border.jpg") },
+      { name: "Jadayu Theertham", img: p("rameshwaram", "jadayu-theertham.jpg") },
+      { name: "Adam's Bridge", img: p("rameshwaram", "adams-bridge.jpg") },
+      { name: "Navagraha Temple", img: p("rameshwaram", "navagraha-temple.jpg") },
+      { name: "Gulf of Mannar", img: p("rameshwaram", "gulf-of-mannar.jpg") },
+      { name: "Kurusadai Island", img: p("rameshwaram", "kurusadai-island.jpg") },
+      { name: "Uthirakosamangai Temple", img: p("rameshwaram", "uthirakosamangai-temple.jpg") },
+      { name: "Sedhu Karai", img: p("rameshwaram", "sedhu-karai.jpg") },
+      { name: "Thirupulani Temple", img: p("rameshwaram", "thirupulani-temple.jpg") },
+    ],
+  },
+
+  vellore: {
+    title: "Vellore",
+    banner: b("vellore.jpg"),
+    sights: [
+      { name: "Golden Temple", img: p("vellore", "golden-temple.jpg") },
+      { name: "Vellore Fort", img: p("vellore", "vellore-fort.jpg") },
+      { name: "Jalakandeswarar Temple", img: p("vellore", "jalakandeswarar-temple.jpg") },
+      { name: "Ratnagiri Murugan Temple", img: p("vellore", "ratnagiri-murugan-temple.jpg") },
+      { name: "Government Museum", img: p("vellore", "government-museum.jpg") },
+    ],
+  },
+
+  thoothukudi: {
+    title: "Thoothukudi",
+    banner: b("thoothukudi.jpg"),
+    sights: [
+      { name: "Thiruchendur Murugan Temple", img: p("thoothukudi", "thiruchendur-murugan-temple.jpg") },
+      { name: "Pani Maya Matha Church", img: p("thoothukudi", "pani-maya-matha-church.jpg") },
+      { name: "Tuticorin Port", img: p("thoothukudi", "tuticorin-port.jpg") },
+      { name: "Panchalankurichi", img: p("thoothukudi", "panchalankurichi.jpg") },
+      { name: "Navathirupathi", img: p("thoothukudi", "navathirupathi.jpg") },
+      { name: "Manapad Beach", img: p("thoothukudi", "manapad-beach.jpg") },
+      { name: "Kayal Pattinam", img: p("thoothukudi", "kayal-pattinam.jpg") },
+      { name: "Manapad Church", img: p("thoothukudi", "manapad-church.jpg") },
+      { name: "Kulasekaran Pattinam", img: p("thoothukudi", "kulasekaran-pattinam.jpg") },
+      { name: "Kazhugu Malai", img: p("thoothukudi", "kazhugu-malai.jpg") },
+      { name: "Ettaya Puram", img: p("thoothukudi", "ettaya-puram.jpg") },
+    ],
+  },
+
+  megamalai: {
+    title: "Megamalai",
+    banner: b("megamalai.jpg"),
+    sights: [
+      { name: "Wildlife sanctuary", img: p("megamalai", "wildlife-sanctuary.jpg") },
+      { name: "High wavys Dam", img: p("megamalai", "high-wavys-dam.jpg") },
+      { name: "Suruli falls", img: p("megamalai", "suruli-falls.jpg") },
+      { name: "Manalar Dam", img: p("megamalai", "manalar-dam.jpg") },
+      { name: "Vellimalai", img: p("megamalai", "vellimalai.jpg") },
+      { name: "Iravangalar Dam", img: p("megamalai", "iravangalar-dam.jpg") },
+      { name: "Tea Estates", img: p("megamalai", "tea-estates.jpg") },
+      { name: "Chinna suruli falls", img: p("megamalai", "chinna-suruli-falls.jpg") },
+      { name: "Megamalai view point", img: p("megamalai", "megamalai-view-point.jpg") },
+      { name: "Maharaja mettu view point", img: p("megamalai", "maharaja-mettu-view-point.jpg") },
+      { name: "Murugan Temple", img: p("megamalai", "murugan-temple.jpg") },
+      { name: "Upper Manalar Reservoir", img: p("megamalai", "upper-manalar-reservoir.jpg") },
+      { name: "Lake view point", img: p("megamalai", "lake-view-point.jpg") },
+    ],
+  },
+
+  kumbakonam: {
+    title: "Kumbakonam",
+    banner: b("kumbakonam.jpg"),
+    sights: [
+      { name: "Airavateswara Temple", img: p("kumbakonam", "airavateswara-temple.jpg") },
+      { name: "Sarangapani Temple", img: p("kumbakonam", "sarangapani-temple.jpg") },
+      { name: "Swami Malai Temple", img: p("kumbakonam", "swami-malai-temple.jpg") },
+      { name: "Adi Kumbeshwarar Temple", img: p("kumbakonam", "adi-kumbeshwarar-temple.jpg") },
+      { name: "Sri Oppiliappan Temple", img: p("kumbakonam", "sri-oppiliappan-temple.jpg") },
+      { name: "Nageswaraswamy Temple", img: p("kumbakonam", "nageswaraswamy-temple.jpg") },
+      { name: "Ramaswamy Temple", img: p("kumbakonam", "ramaswamy-temple.jpg") },
+      { name: "Kasi Viswanathar Temple", img: p("kumbakonam", "kasi-viswanathar-temple.jpg") },
+      { name: "Chakrapani Temple", img: p("kumbakonam", "chakrapani-temple.jpg") },
+      { name: "Someswar Temple", img: p("kumbakonam", "someswar-temple.jpg") },
+      { name: "Dharasuram Temple", img: p("kumbakonam", "dharasuram-temple.jpg") },
+      { name: "Patteeswaram Temple", img: p("kumbakonam", "patteeswaram-temple.jpg") },
+      { name: "Thirunageswaram Temple", img: p("kumbakonam", "thirunageswaram-temple.jpg") },
+    ],
+  },
+
+  velankanni: {
+    title: "Velankanni",
+    banner: b("velankanni.jpg"),
+    sights: [
+      { name: "Church of Our Lady", img: p("velankanni", "church-of-our-lady.jpg") },
+      { name: "Basilica of Our Lady", img: p("velankanni", "basilica-of-our-lady.jpg") },
+      { name: "Morning Star Church", img: p("velankanni", "morning-star-church.jpg") },
+      { name: "Velankanni Beach", img: p("velankanni", "velankanni-beach.jpg") },
+    ],
+  },
 
 };
 

@@ -17,18 +17,21 @@ const Thiruvannamalai = new URL("../../assets/tamilnadu/district/thiruvannamalai
 const Courtallam = new URL("../../assets/tamilnadu/district/courtallam.jpg", import.meta.url).href;
 const TheniandCumbum = new URL("../../assets/tamilnadu/district/theniandcumbum.jpg", import.meta.url).href;
 const Kanyakumari = new URL("../../assets/tamilnadu/district/kanyakumari.jpg", import.meta.url).href;
-const KolliMalaiHills = new URL("../../assets/tamilnadu/district/kollimalaihills.jpeg", import.meta.url).href;
-const Salem = new URL("../../assets/tamilnadu/district/salem.jpeg", import.meta.url).href;
-const Madurai = new URL("../../assets/tamilnadu/district/madurai.jpg", import.meta.url).href;
-const Megamalai = new URL("../../assets/tamilnadu/district/megamalai.jpeg", import.meta.url).href;
-const Rameshwaram = new URL("../../assets/tamilnadu/district/rameshwaram.jpeg", import.meta.url).href;
-const Vellore = new URL("../../assets/tamilnadu/district/vellore.jpg", import.meta.url).href;
-const Tuticorin = new URL("../../assets/tamilnadu/district/tuticorin.jpg", import.meta.url).href;
-const Kumbakonam = new URL("../../assets/tamilnadu/district/kumbakonam.jpeg", import.meta.url).href;
-const Chidambaram = new URL("../../assets/tamilnadu/district/chidambaram.jpg", import.meta.url).href;
-const Velankanni = new URL("../../assets/tamilnadu/district/velankanni.jpg", import.meta.url).href;
+const KolliMalaiHills = new URL("../../assets/tamilnadu/district/kollimalaihills.jpg", import.meta.url).href;
+const Salem = new URL("../../assets/tamilnadu/district/salem.jpg", import.meta.url).href;
 const Yercaud = new URL("../../assets/tamilnadu/district/yercaud.jpg", import.meta.url).href;
+const Madurai = new URL("../../assets/tamilnadu/district/madurai.jpg", import.meta.url).href;
 const Hogenakkal = new URL("../../assets/tamilnadu/district/hogenakkal.jpg", import.meta.url).href;
+const Pollachi = new URL("../../assets/tamilnadu/district/pollachi.jpg", import.meta.url).href;
+const Valparai = new URL("../../assets/tamilnadu/district/valparai.jpg", import.meta.url).href;
+const Parambikulam = new URL("../../assets/tamilnadu/district/parambikulam.jpg", import.meta.url).href;
+const Palani = new URL("../../assets/tamilnadu/district/palani.jpg", import.meta.url).href;
+const Megamalai = new URL("../../assets/tamilnadu/district/megamalai.jpg", import.meta.url).href;
+const Rameshwaram = new URL("../../assets/tamilnadu/district/rameshwaram.jpg", import.meta.url).href;
+const Vellore = new URL("../../assets/tamilnadu/district/vellore.jpg", import.meta.url).href;
+const Thoothukudi = new URL("../../assets/tamilnadu/district/thoothukudi.jpg", import.meta.url).href;
+const Kumbakonam = new URL("../../assets/tamilnadu/district/kumbakonam.jpg", import.meta.url).href;
+const Velankanni = new URL("../../assets/tamilnadu/district/velankanni.jpg", import.meta.url).href;
 
 /* ================== DATA ================== */
 const districts = [
@@ -46,13 +49,18 @@ const districts = [
   { name: "Kanyakumari", slug: "kanyakumari", img: Kanyakumari },
   { name: "Kolli Malai Hills", slug: "kollimalaihills", img: KolliMalaiHills },
   { name: "Salem", slug: "salem", img: Salem },
+  { name: "Yercaud", slug: "yercaud", img: Yercaud },
   { name: "Madurai", slug: "madurai", img: Madurai },
+  { name: "Hogenakkal", slug: "hogenakkal", img: Hogenakkal },
+  { name: "Pollachi", slug: "pollachi", img: Pollachi },
+  { name: "Valparai", slug: "valparai", img: Valparai },
+  { name: "Parambikulam", slug: "parambikulam", img: Parambikulam },
+  { name: "Palani", slug: "palani", img: Palani },
   { name: "Megamalai", slug: "megamalai", img: Megamalai },
   { name: "Rameshwaram", slug: "rameshwaram", img: Rameshwaram },
   { name: "Vellore", slug: "vellore", img: Vellore },
-  { name: "Tuticorin", slug: "tuticorin", img: Tuticorin },
+  { name: "Thoothukudi", slug: "thoothukudi", img: Thoothukudi },
   { name: "Kumbakonam", slug: "kumbakonam", img: Kumbakonam },
-  { name: "Chidambaram", slug: "chidambaram", img: Chidambaram },
   { name: "Velankanni", slug: "velankanni", img: Velankanni },
 ];
 

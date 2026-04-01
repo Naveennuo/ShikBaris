@@ -80,7 +80,7 @@ export default function HeaderWithWhatsApp() {
     <>
       {/* ================= HEADER ================= */}
       <header className="absolute top-0 left-0 w-full z-40">
-        <div className="flex items-center justify-between h-16 md:h-20 px-4 md:px-10 bg-[#f0f0f0] backdrop-blur">
+        <div className="flex items-center justify-between h-16 md:h-20 px-4 md:px-10 bg-[#ffffff] backdrop-blur">
           <Link to="/" className="flex items-center">
             <img src={logo} alt="ShiGO" className="h-9 md:h-10 lg:h-11 cursor-pointer" />
           </Link>
@@ -93,7 +93,7 @@ export default function HeaderWithWhatsApp() {
             ))}
           </nav>
 
-          <div className="hidden md:flex items-center gap-4 bg-white px-3 md:px-4 lg:px-6 py-2 rounded-full text-[#003a64] text-xs md:text-sm lg:text-base font-semibold">
+          <div className="hidden md:flex items-center gap-4 bg-[#ecf1ff] px-3 md:px-4 lg:px-6 py-2 rounded-full text-[#003a64] text-xs md:text-sm lg:text-base font-semibold">
             <a href={TEL} className="flex items-center gap-2 text-[16px]">
               <Phone size={16} className="text-[#0092fb]" />
               +91 9 52 552 5552
@@ -104,7 +104,7 @@ export default function HeaderWithWhatsApp() {
             </a>
           </div>
 
-          <button onClick={() => setOpen(true)} className="md:hidden text-white" aria-label="Open menu">
+          <button onClick={() => setOpen(true)} className="md:hidden text-blue" aria-label="Open menu">
             <Menu size={22} />
           </button>
         </div>
@@ -112,7 +112,7 @@ export default function HeaderWithWhatsApp() {
         {/* Mobile top contact row */}
         <div className="md:hidden 
                 flex justify-between items-center 
-                bg-white/90 backdrop-blur 
+                bg-[#ecf1ff] backdrop-blur 
                 py-2 px-4">
 
   <a
