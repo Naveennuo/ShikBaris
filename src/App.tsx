@@ -8,6 +8,7 @@ import Footer from "./sections/Footer";
 
 import MainHero from "./sections/MainHero";
 import TopSights from "./sections/TopSights";
+import TourPackages from "./sections/TourPackages";
 import WhyShiGO from "./sections/WhyShiGO";
 import DealsWeekend from "./sections/ExplorePackages";
 import HotelBooking from "./sections/HotelBooking";
@@ -26,6 +27,7 @@ const Home = () => {
   return (
     <>
       <MainHero />
+      <TourPackages />
       <TopSights />
       <WhyShiGO />
       <DealsWeekend />
