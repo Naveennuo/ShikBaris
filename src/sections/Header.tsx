@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Phone, Mail, Menu, X, ArrowUp, MessageCircle } from "lucide-react";
 
 /* Assets */
-const logo = new URL("../assets/ShiGOlogo.svg", import.meta.url).href;
+const logo = new URL("../assets/ShikBaris_Logo.svg", import.meta.url).href;
 const whatsappLogo = new URL("../assets/whatsapp.svg", import.meta.url).href;
 
 const nav = ["Destinations", "Our Advantages", "Bank Details", "Terms & Conditions"];
