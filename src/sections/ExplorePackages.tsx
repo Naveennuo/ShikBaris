@@ -16,8 +16,6 @@ const deals = [
   { id: 2, title: "Hills Station", location: "India", image: img.hills },
   { id: 3, title: "Honeymoon Packages", location: "India", image: img.honeymoon },
   { id: 4, title: "Temple Tour", location: "India", image: img.temple },
-  { id: 5, title: "Local Taxi Services", location: "India", image: img.taxi },
-  { id: 6, title: "Acting Drivers", location: "India", image: img.driver },
 ];
 
 export default function DealsWeekend() {

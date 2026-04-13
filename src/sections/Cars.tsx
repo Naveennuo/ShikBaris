@@ -2,7 +2,6 @@ import React from "react";
 
 /* ---------------- Images ---------------- */
 const imgs = {
-  Glanza: new URL("../assets/vehicles/toyota-glanza.png", import.meta.url).href,
   Swift: new URL("../assets/vehicles/maruti-swift.jpeg", import.meta.url).href,
   Etios: new URL("../assets/vehicles/etios.png", import.meta.url).href,
   Ertiga: new URL("../assets/vehicles/ertiga.jpg", import.meta.url).href,
@@ -16,7 +15,6 @@ const imgs = {
   Urbania12: new URL("../assets/vehicles/urbania-12.jpg", import.meta.url).href,
   Urbania16: new URL("../assets/vehicles/urbania-16.jpg", import.meta.url).href,
   Coach: new URL("../assets/vehicles/mini-bus.png", import.meta.url).href,
-  Bus: new URL("../assets/vehicles/bus-32.jpg", import.meta.url).href,
 };
 
 /* ---------------- Vehicles (STRICT ORDER) ---------------- */
@@ -25,8 +23,7 @@ const vehicles: {
   category: string;
   seats: string;
   image: string;
-}[] = [
-  { name: "Toyota Glanza", category: "Hatchback", seats: "4+1", image: imgs.Glanza },        // 1
+}[] = [     // 1
   { name: "Maruti Swift", category: "Hatchback", seats: "4+1", image: imgs.Swift },         // 2
   { name: "Toyota Etios", category: "Sedan", seats: "4+1", image: imgs.Etios },              // 3
   { name: "Maruti Ertiga", category: "MPV", seats: "7+1", image: imgs.Ertiga },              // 4
@@ -41,8 +38,7 @@ const vehicles: {
   { name: "Force Urbania", category: "Luxury Van", seats: "12+1", image: imgs.Urbania12 },  // 12
   { name: "Force Urbania", category: "Luxury Van", seats: "16+1", image: imgs.Urbania16 },  // 13
 
-  { name: "Mini Bus (Coach)", category: "AC", seats: "21+1", image: imgs.Coach },                       // 14
-  { name: "Sleeper Bus", category: "AC", seats: "32+1", image: imgs.Bus },                  // 15
+  { name: "Mini Bus (Coach)", category: "AC", seats: "21+1", image: imgs.Coach },                       // 14         // 15
 ];
 
 /* ---------------- Component ---------------- */
