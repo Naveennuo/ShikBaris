@@ -6,7 +6,7 @@ export default function WhyTriptoSection() {
     <div className="flex flex-col gap-[32px] items-center justify-center relative w-full py-10" data-name="WhyTripto Section">
       {/* Main Header */}
       <div className="flex flex-col font-semibold justify-center leading-[46px] relative text-[#121316] text-[32px] md:text-[36px] text-center px-4" style={{ fontVariationSettings: "'wdth' 100" }}>
-        <p>Why Travellers Trust ShiGO</p>
+        <p>Why Travellers Trust ShikBaris</p>
       </div>
 
       {/* Main Container */}

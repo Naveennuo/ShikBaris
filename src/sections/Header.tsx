@@ -9,11 +9,11 @@ const whatsappLogo = new URL("../assets/whatsapp.svg", import.meta.url).href;
 const nav = ["Destinations", "Our Advantages", "Bank Details", "Terms & Conditions"];
 
 const PHONE = "+919525525552";
-const MAIL = "shigoelitetourism@gmail.com";
+const MAIL = "booking@shikbaris.com";
 const TEL = `tel:${PHONE}`;
 const EMAIL = `mailto:${MAIL}`;
 const WA = `https://wa.me/${PHONE.replace("+", "")}`;
-const POP_KEY = "shigo_whatsapp_popup_seen_v3";
+const POP_KEY = "shikbaris_whatsapp_popup_seen_v3";
 
 export default function HeaderWithWhatsApp() {
   const [open, setOpen] = useState(false);
@@ -31,7 +31,7 @@ export default function HeaderWithWhatsApp() {
 
   const waMsg = useMemo(() => {
     const msg =
-      `Hi ShiGO! I want to plan a trip.\n\n` +
+      `Hi ShikBaris! I want to plan a trip.\n\n` +
       `Destination: ${dest || "-"}\n` +
       `From: ${from || "-"}\n` +
       `To: ${to || "-"}\n` +
@@ -41,7 +41,7 @@ export default function HeaderWithWhatsApp() {
     return `${WA}?text=${encodeURIComponent(msg)}`;
   }, [dest, from, to, people, note]);
 
-  const waDefault = useMemo(() => `${WA}?text=${encodeURIComponent("Hi ShiGO! I want to plan a trip.")}`, []);
+  const waDefault = useMemo(() => `${WA}?text=${encodeURIComponent("Hi ShikBaris! I want to plan a trip.")}`, []);
 
   const markSeen = () => {
     try {
@@ -82,7 +82,7 @@ export default function HeaderWithWhatsApp() {
       <header className="absolute top-0 left-0 w-full z-40">
         <div className="flex items-center justify-between h-16 md:h-20 px-4 md:px-10 bg-[#ffffff] backdrop-blur">
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="ShiGO" className="h-9 md:h-10 lg:h-11 cursor-pointer" />
+            <img src={logo} alt="ShikBaris" className="h-9 md:h-10 lg:h-11 cursor-pointer" />
           </Link>
 
           <nav className="hidden md:flex gap-4 md:gap-6 lg:gap-8 xl:gap-10 text-[#000721]  font-medium">

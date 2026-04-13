@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-[1232px] mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo & Location */}
         <div>
-          <img src={logo} alt="ShiGO" className="h-12 mb-3" />
+          <img src={logo} alt="ShikBaris" className="h-12 mb-3" />
           <p className="flex items-center gap-2 text-sm text-white/70">
             <MapPin size={16} className="text-[#0092fb]" />
             Madurai, Tamil Nadu, India
@@ -37,11 +37,11 @@ export default function Footer() {
               +91 9 52 552 5552
             </a>
             <a
-              href="mailto:shigoelitetourism@gmail.com"
+              href="mailto:booking@shikbaris.com"
               className="flex items-center gap-2 hover:text-[#0092fb]"
             >
               <Mail size={16} className="text-[#0092fb]" />
-              shigoelitetourism@gmail.com
+              booking@shikbaris.com
             </a>
             <a
               href="https://wa.me/919525525552"
@@ -55,7 +55,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-8 text-center text-xs text-white/60">
-        © {new Date().getFullYear()} ShiGO Elite Tourism. All rights reserved.
+        © {new Date().getFullYear()} ShikBaris. All rights reserved.
       </div>
     </footer>
   );

@@ -9,7 +9,7 @@ import Footer from "./sections/Footer";
 import MainHero from "./sections/MainHero";
 import TopSights from "./sections/TopSights";
 import TourPackages from "./sections/TourPackages";
-import WhyShiGO from "./sections/WhyShiGO";
+import WhyShikBaris from "./sections/WhyShikBaris";
 import DealsWeekend from "./sections/ExplorePackages";
 import HotelBooking from "./sections/HotelBooking";
 import Cars from "./sections/Cars";
@@ -29,7 +29,7 @@ const Home = () => {
       <MainHero />
       <TourPackages />
       <TopSights />
-      <WhyShiGO />
+      <WhyShikBaris />
       <DealsWeekend />
       <HotelBooking />
       <Cars />
