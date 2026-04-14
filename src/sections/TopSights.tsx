@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
 const TopSights: React.FC = () => {
   const navigate = useNavigate();
@@ -12,6 +13,14 @@ const TopSights: React.FC = () => {
     { title: "Pondicherry", img: new URL("../assets/Pondicherry.jpg", import.meta.url).href, span: 2 },
     { title: "Goa", img: new URL("../assets/Goa.jpg", import.meta.url).href, span: 3 },
     { title: "Telangana", img: new URL("../assets/Telangana.jpg", import.meta.url).href, span: 3 },
+    { title: "Gujarat", img: new URL("../assets/Gujarat.jpg", import.meta.url).href, span: 2 },
+    { title: "Sikkim", img: new URL("../assets/Sikkim.png", import.meta.url).href, span: 2 },
+    { title: "Himachal Pradesh", img: new URL("../assets/Himachal Pradesh.webp", import.meta.url).href, span: 2 },
+    { title: "Uttar Pradesh", img: new URL("../assets/Uttar Pradesh.jpg", import.meta.url).href, span: 3 },
+    { title: "Madhya Pradesh", img: new URL("../assets/Madhya Pradesh.jpg", import.meta.url).href, span: 3 },
+    { title: "Maharashtra", img: new URL("../assets/Maharashtra.jpg", import.meta.url).href, span: 2 },
+    { title: "Uttarakhand", img: new URL("../assets/Uttarakhand.jpg", import.meta.url).href, span: 2 },
+    { title: "Assam", img: new URL("../assets/Assam.jpg", import.meta.url).href, span: 2 },
   ];
 
   return (
@@ -32,11 +41,11 @@ const TopSights: React.FC = () => {
             key={i}
             style={{
               gridColumn: `span ${s.span}`,
-              height: s.span === 3 ? 260 : 220,
+              height: 260,
               borderRadius: 18,
               overflow: "hidden",
               position: "relative",
-              cursor: s.title === "Tamil Nadu" ? "pointer" : "default",
+              cursor: "pointer",
             }}
             className="top-sight-card"
             onClick={() => {
@@ -81,6 +90,26 @@ const TopSights: React.FC = () => {
                 {s.title}
               </span>
             </div>
+
+            <div
+              style={{
+                position: "absolute",
+                top: 20,
+                right: 20,
+                width: 40,
+                height: 40,
+                background: "rgba(255,255,255,0.9)",
+                borderRadius: "50%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                transition: "transform 0.3s ease",
+                transformOrigin: "center center",
+              }}
+              className="redirect-arrow-btn"
+            >
+              <ArrowRight size={18} />
+            </div>
           </div>
         ))}
       </div>
@@ -89,6 +118,27 @@ const TopSights: React.FC = () => {
         {`
           .top-sight-card:hover > .top-sight-img {
             transform: scale(1.06);
+          }
+
+          .redirect-arrow-btn {
+            transform: rotate(0deg);
+            transform-origin: center center;
+            transition: background-color 0.3s ease;
+          }
+
+          .top-sight-card:hover .redirect-arrow-btn {
+            background-color: #007bff !important;
+          }
+
+          .redirect-arrow-btn svg {
+            color: #000;
+            transform: rotate(0deg);
+            transition: transform 0.3s ease, color 0.3s ease;
+          }
+
+          .top-sight-card:hover .redirect-arrow-btn svg {
+            transform: rotate(-45deg);
+            color: #fff !important;
           }
 
           @media (max-width: 1024px) {
@@ -108,11 +158,11 @@ const TopSights: React.FC = () => {
 
             .top-sight-card {
               grid-column: span 1 !important;
-              height: auto !important;
+              height: 260px !important;
             }
 
             .top-sight-card img {
-              height: auto !important;
+              height: 100% !important;
             }
           }
         `}
