@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 
 /* ================== BANNER ================== */
 const Banner = new URL("../../assets/Tamilnadu.jpg", import.meta.url).href;
@@ -19,12 +20,12 @@ const TheniandCumbum = new URL("../../assets/tamilnadu/district/theniandcumbum.j
 const Kanyakumari = new URL("../../assets/tamilnadu/district/kanyakumari.jpg", import.meta.url).href;
 const KolliMalaiHills = new URL("../../assets/tamilnadu/district/kollimalaihills.jpg", import.meta.url).href;
 const Salem = new URL("../../assets/tamilnadu/district/salem.jpg", import.meta.url).href;
-const Yercaud = new URL("../../assets/tamilnadu/district/yercaud.jpg", import.meta.url).href;
+const Yercaud = new URL("../../assets/tamilnadu/district/yercaud.webp", import.meta.url).href;
 const Madurai = new URL("../../assets/tamilnadu/district/madurai.jpg", import.meta.url).href;
 const Hogenakkal = new URL("../../assets/tamilnadu/district/hogenakkal.jpg", import.meta.url).href;
-const Pollachi = new URL("../../assets/tamilnadu/district/pollachi.jpg", import.meta.url).href;
+const Pollachi = new URL("../../assets/tamilnadu/district/pollachi.webp", import.meta.url).href;
 const Valparai = new URL("../../assets/tamilnadu/district/valparai.jpg", import.meta.url).href;
-const Parambikulam = new URL("../../assets/tamilnadu/district/parambikulam.jpg", import.meta.url).href;
+const Parambikulam = new URL("../../assets/tamilnadu/district/parambikulam.webp", import.meta.url).href;
 const Palani = new URL("../../assets/tamilnadu/district/palani.jpg", import.meta.url).href;
 const Megamalai = new URL("../../assets/tamilnadu/district/megamalai.jpg", import.meta.url).href;
 const Rameshwaram = new URL("../../assets/tamilnadu/district/rameshwaram.jpg", import.meta.url).href;
@@ -89,7 +90,7 @@ export default function TamilNadu() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {districts.map((district) => (
             <Link key={district.slug} to={`/tamilnadu/${district.slug}`} className="group">
-              <div className="rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 bg-white">
+              <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition duration-500 bg-white">
                 <div className="h-[240px] overflow-hidden">
                   <img
                     src={district.img}
@@ -97,6 +98,10 @@ export default function TamilNadu() {
                     className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
                     loading="lazy"
                   />
+                </div>
+
+                <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 flex items-center justify-center transition duration-300 group-hover:bg-[#007bff]">
+                  <ArrowRight size={18} className="text-[#000] transition duration-300 transform group-hover:-rotate-45 group-hover:text-white" />
                 </div>
 
                 <div className="py-5 text-center">
