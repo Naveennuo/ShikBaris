@@ -1,6 +1,6 @@
 import React from "react";
 
-const singapore = new URL("../assets/Singapore.jpg", import.meta.url).href;
+const singapore = new URL("../assets/Singapore.webp", import.meta.url).href;
 const malaysia = new URL("../assets/Malaysia.jpg", import.meta.url).href;
 
 export default function InternationalTours() {

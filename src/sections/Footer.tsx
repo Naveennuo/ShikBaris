@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
-const logo = new URL("../assets/ShikBaris_Logo1.svg", import.meta.url).href;
+const logo = new URL("../assets/ShikBaris_Logo.png", import.meta.url).href;
 const nav = ["India", "International", "Luxury", "Car Rental", "Contact"];
 
 export default function Footer() {
@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-[1232px] mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Logo & Location */}
         <div>
-          <img src={logo} alt="ShikBaris" className="h-12 mb-3" />
+          <img src={logo} alt="ShikBaris" className="h-16 w-auto mb-3" />
           <p className="flex items-center gap-2 text-sm text-white/70">
             <MapPin size={16} className="text-[#0092fb]" />
             Madurai, Tamil Nadu, India

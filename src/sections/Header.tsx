@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Phone, Mail, Menu, X, ArrowUp, MessageCircle } from "lucide-react";
 
 /* Assets */
-const logo = new URL("../assets/ShikBaris_Logo.svg", import.meta.url).href;
+const logo = new URL("../assets/ShikBaris_Logo.png", import.meta.url).href;
 const whatsappLogo = new URL("../assets/whatsapp.svg", import.meta.url).href;
 
 const nav = ["Destinations", "Our Advantages", "Bank Details", "Terms & Conditions"];
@@ -82,7 +82,7 @@ export default function HeaderWithWhatsApp() {
       <header className="absolute top-0 left-0 w-full z-40">
         <div className="flex items-center justify-between h-16 md:h-20 px-4 md:px-10 bg-[#ffffff] backdrop-blur">
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="ShikBaris" className="h-9 md:h-10 lg:h-11 cursor-pointer" />
+            <img src={logo} alt="ShikBaris" className="h-16 w-auto flex-shrink-0 cursor-pointer" />
           </Link>
 
           <nav className="hidden md:flex gap-4 md:gap-6 lg:gap-8 xl:gap-10 text-[#000721]  font-medium">
