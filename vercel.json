@@ -1,3 +1,14 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "redirects": [
+    {
+      "source": "http://shikbaris.com/:path*",
+      "destination": "https://www.shikbaris.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "https://shikbaris.com/:path*",
+      "destination": "https://www.shikbaris.com/:path*",
+      "permanent": true
+    }
+  ]
 }
