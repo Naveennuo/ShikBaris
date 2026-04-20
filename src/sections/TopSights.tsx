@@ -2,26 +2,40 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 
+// ✅ AUTO IMPORT IMAGES
+const stateImages = import.meta.glob(
+  "../assets/states/*.{png,jpg,jpeg,webp}",
+  {
+    eager: true,
+    import: "default",
+  }
+) as Record<string, string>;
+
+// ✅ GRID SPAN PATTERN (UNCHANGED)
+const spanPattern = [3, 3, 2, 2, 2];
+
 const TopSights: React.FC = () => {
   const navigate = useNavigate();
 
-  const sights = [
-    { title: "Tamil Nadu", img: new URL("../assets/Tamilnadu.jpg", import.meta.url).href, span: 3 },
-    { title: "Kerala", img: new URL("../assets/Kerala.jpg", import.meta.url).href, span: 3 },
-    { title: "Karnataka", img: new URL("../assets/Karnataka.jpg", import.meta.url).href, span: 2 },
-    { title: "Andhra Pradesh", img: new URL("../assets/Andhra Pradesh.jpg", import.meta.url).href, span: 2 },
-    { title: "Pondicherry", img: new URL("../assets/Pondicherry.jpg", import.meta.url).href, span: 2 },
-    { title: "Goa", img: new URL("../assets/Goa.jpg", import.meta.url).href, span: 3 },
-    { title: "Telangana", img: new URL("../assets/Telangana.jpg", import.meta.url).href, span: 3 },
-    { title: "Gujarat", img: new URL("../assets/Gujarat.jpg", import.meta.url).href, span: 2 },
-    { title: "Sikkim", img: new URL("../assets/Sikkim.png", import.meta.url).href, span: 2 },
-    { title: "Himachal Pradesh", img: new URL("../assets/Himachal Pradesh.webp", import.meta.url).href, span: 2 },
-    { title: "Uttar Pradesh", img: new URL("../assets/Uttar Pradesh.jpg", import.meta.url).href, span: 3 },
-    { title: "Madhya Pradesh", img: new URL("../assets/Madhya Pradesh.jpg", import.meta.url).href, span: 3 },
-    { title: "Maharashtra", img: new URL("../assets/Maharashtra.jpg", import.meta.url).href, span: 2 },
-    { title: "Uttarakhand", img: new URL("../assets/Uttarakhand.jpg", import.meta.url).href, span: 2 },
-    { title: "Assam", img: new URL("../assets/Assam.jpg", import.meta.url).href, span: 2 },
-  ];
+  // ✅ AUTO BUILD DATA FROM FILES
+  const sights = Object.entries(stateImages).map(([path, src], index) => {
+    const file = path.split("/").pop() || "";
+    const name = file.replace(/\.[^.]+$/, "");
+
+    const title = name
+      .replace(/[-_]/g, " ")
+      .replace(/\b\w/g, (c) => c.toUpperCase());
+
+    // 👉 clean slug for routing
+    const slug = name.toLowerCase().replace(/\s+/g, "");
+
+    return {
+      title,
+      slug,
+      img: src,
+      span: spanPattern[index % spanPattern.length],
+    };
+  });
 
   return (
     <section style={{ width: "100%", padding: 40, boxSizing: "border-box" }}>
@@ -48,11 +62,7 @@ const TopSights: React.FC = () => {
               cursor: "pointer",
             }}
             className="top-sight-card"
-            onClick={() => {
-              if (s.title === "Tamil Nadu") {
-                navigate("/tamilnadu");
-              }
-            }}
+            onClick={() => navigate(`/${s.slug}`)} // ✅ AUTO ROUTE
           >
             <img
               src={s.img}
@@ -114,6 +124,7 @@ const TopSights: React.FC = () => {
         ))}
       </div>
 
+      {/* ✅ SAME CSS (UNCHANGED) */}
       <style>
         {`
           .top-sight-card:hover > .top-sight-img {

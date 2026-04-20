@@ -1,6 +1,3 @@
-/* ===========================
-   ✅ App.tsx (FULL)
-   =========================== */
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Header from "./sections/Header";
@@ -16,13 +13,10 @@ import Cars from "./sections/Cars";
 import TicketBooking from "./sections/TicketBooking";
 import RatingReviews from "./sections/RatingReviews";
 
-/* Tamil Nadu Pages */
-import TamilNaduList from "./pages/tamilnadu/TamilNaduList";
-import DistrictPage from "./pages/tamilnadu/DistrictPage";
+/* ✅ SINGLE FILE IMPORT */
+import { TamilNadu, DistrictPage } from "./pages/tamilnadu/TamilNadu";
 
-
-
-/* ---------- Home Page Layout ---------- */
+/* ---------- Home Page ---------- */
 const Home = () => {
   return (
     <>
@@ -46,12 +40,10 @@ export default function App() {
         <Header />
 
         <Routes>
-          {/* Home */}
           <Route path="/" element={<Home />} />
 
-          {/* Tamil Nadu Main */}
-        <Route path="/tamilnadu" element={<TamilNaduList />} />
-        <Route path="/tamilnadu/:districtSlug" element={<DistrictPage />} />
+          <Route path="/tamilnadu" element={<TamilNadu />} />
+          <Route path="/tamilnadu/:districtSlug" element={<DistrictPage />} />
         </Routes>
 
         <Footer />
