@@ -14,7 +14,7 @@ import TicketBooking from "./sections/TicketBooking";
 import RatingReviews from "./sections/RatingReviews";
 
 /* ✅ SINGLE FILE IMPORT */
-import { TamilNadu, DistrictPage } from "./pages/tamilnadu/TamilNadu";
+import { TamilNadu, DistrictPage } from "./pages/TamilNadu";
 
 /* ---------- Home Page ---------- */
 const Home = () => {
