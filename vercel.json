@@ -1,12 +1,13 @@
 {
   "redirects": [
     {
-      "source": "http://shikbaris.com/:path*",
-      "destination": "https://www.shikbaris.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "https://shikbaris.com/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "shikbaris.com"
+        }
+      ],
       "destination": "https://www.shikbaris.com/:path*",
       "permanent": true
     }
