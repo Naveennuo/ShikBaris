@@ -4,6 +4,11 @@ import { ArrowRight } from "lucide-react";
 
 /* ================== AUTO IMPORT ================== */
 
+const tamilNaduBanner = new URL(
+  "../../assets/states/Tamilnadu.jpg",
+  import.meta.url
+).href;
+
 const modules = import.meta.glob(
   "../../assets/tamilnadu/**/*.{jpg,jpeg,png,webp}",
   {
@@ -90,7 +95,7 @@ export const TamilNadu: React.FC = () => {
       {/* ===== HERO ===== */}
       <div className="relative w-full h-[360px] overflow-hidden">
         <img
-          src={Object.values(modules)[0]}
+          src={tamilNaduBanner}
           alt="Tamil Nadu"
           className="absolute inset-0 w-full h-full object-cover"
         />
