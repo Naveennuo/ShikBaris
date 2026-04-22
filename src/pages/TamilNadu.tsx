@@ -5,12 +5,12 @@ import { ArrowRight } from "lucide-react";
 /* ================== AUTO IMPORT ================== */
 
 const tamilNaduBanner = new URL(
-  "../../assets/states/Tamilnadu.jpg",
+  "../assets/states/Tamilnadu.jpg",
   import.meta.url
 ).href;
 
 const modules = import.meta.glob(
-  "../../assets/tamilnadu/**/*.{jpg,jpeg,png,webp}",
+  "../assets/tamilnadu/**/*.{jpg,jpeg,png,webp}",
   {
     eager: true,
     import: "default",

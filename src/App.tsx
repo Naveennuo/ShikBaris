@@ -14,7 +14,8 @@ import TicketBooking from "./sections/TicketBooking";
 import RatingReviews from "./sections/RatingReviews";
 
 /* ✅ SINGLE FILE IMPORT */
-import { TamilNadu, DistrictPage } from "./pages/tamilnadu/TamilNadu";
+import { Kerala, KeralaDistrictPage } from "./pages/Kerala";
+import { TamilNadu, DistrictPage } from "./pages/TamilNadu";
 
 /* ---------- Home Page ---------- */
 const Home = () => {
@@ -42,6 +43,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
+          <Route path="/kerala" element={<Kerala />} />
+          <Route path="/kerala/:districtSlug" element={<KeralaDistrictPage />} />
           <Route path="/tamilnadu" element={<TamilNadu />} />
           <Route path="/tamilnadu/:districtSlug" element={<DistrictPage />} />
         </Routes>
