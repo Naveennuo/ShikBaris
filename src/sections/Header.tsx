@@ -22,24 +22,28 @@ export default function HeaderWithWhatsApp() {
   const [showWaPopup, setShowWaPopup] = useState(false);
   const [showPlan, setShowPlan] = useState(false);
 
-  // Plan form (simple)
-  const [dest, setDest] = useState("");
-  const [from, setFrom] = useState("");
-  const [to, setTo] = useState("");
-  const [people, setPeople] = useState("2");
-  const [note, setNote] = useState("");
+  // Plan form - 7 mandatory fields + optional notes
+  const [fullName, setFullName] = useState("");
+  const [phNo, setPhNo] = useState("");
+  const [email, setEmail] = useState("");
+  const [stateCity, setStateCity] = useState("");
+  const [travellers, setTravellers] = useState("");
+  const [arrivalCity, setArrivalCity] = useState("");
+  const [departureCity, setDepartureCity] = useState("");
+  const [requirements, setRequirements] = useState("");
 
   const waMsg = useMemo(() => {
     const msg =
-      `Hi ShikBaris! I want to plan a trip.\n\n` +
-      `Destination: ${dest || "-"}\n` +
-      `From: ${from || "-"}\n` +
-      `To: ${to || "-"}\n` +
-      `People: ${people || "-"}\n` +
-      `Notes: ${note || "-"}\n\n` +
-      `Please share itinerary & pricing.`;
-    return `${WA}?text=${encodeURIComponent(msg)}`;
-  }, [dest, from, to, people, note]);
+      `Full Name: ${fullName || "-"}\n` +
+      `Phone: ${phNo || "-"}\n` +
+      `Email: ${email || "-"}\n` +
+      `State/City: ${stateCity || "-"}\n` +
+      `No. of Travellers: ${travellers || "-"}\n` +
+      `Arrival City: ${arrivalCity || "-"}\n` +
+      `Departure City: ${departureCity || "-"}\n` +
+      `\nTravel Requirements:\n${requirements || "-"}`;
+    return msg;
+  }, [fullName, phNo, email, stateCity, travellers, arrivalCity, departureCity, requirements]);
 
   const waDefault = useMemo(() => `${WA}?text=${encodeURIComponent("Hi ShikBaris! I want to plan a trip.")}`, []);
 
@@ -70,10 +74,90 @@ export default function HeaderWithWhatsApp() {
   const openPlan = () => setShowPlan(true);
   const closePlan = () => setShowPlan(false);
 
-  const sendPlan = () => {
-    markSeen();
-    window.open(waMsg, "_blank", "noopener,noreferrer");
-    setShowPlan(false);
+  const sendPlan = async () => {
+    // Validate all mandatory fields
+    if (!fullName.trim()) {
+      alert("Please enter Full Name");
+      return;
+    }
+    if (!phNo.trim()) {
+      alert("Please enter Phone Number");
+      return;
+    }
+    if (!email.trim() || !email.includes("@")) {
+      alert("Please enter a valid Email Address");
+      return;
+    }
+    if (!stateCity.trim()) {
+      alert("Please enter State or City");
+      return;
+    }
+    if (!travellers.trim()) {
+      alert("Please enter Number of Travellers");
+      return;
+    }
+    if (!arrivalCity.trim()) {
+      alert("Please enter Arrival City");
+      return;
+    }
+    if (!departureCity.trim()) {
+      alert("Please enter Departure City");
+      return;
+    }
+
+    // Prepare email content
+    const subject = `New Trip Planning Request from ${fullName}`;
+    const emailBody = 
+      `Full Name: ${fullName}\n` +
+      `Phone: ${phNo}\n` +
+      `Email: ${email}\n` +
+      `State/City: ${stateCity}\n` +
+      `Number of Travellers: ${travellers}\n` +
+      `Arrival City: ${arrivalCity}\n` +
+      `Departure City: ${departureCity}\n` +
+      `\nTravel Requirements:\n${requirements || "Not provided"}`;
+
+    try {
+      // Send via email API (using FormSubmit.io free service)
+      const formData = new FormData();
+      formData.append("fullName", fullName);
+      formData.append("phNo", phNo);
+      formData.append("email", email);
+      formData.append("stateCity", stateCity);
+      formData.append("travellers", travellers);
+      formData.append("arrivalCity", arrivalCity);
+      formData.append("departureCity", departureCity);
+      formData.append("requirements", requirements);
+      formData.append("_subject", subject);
+      formData.append("_captcha", "false");
+
+      const response = await fetch("https://formsubmit.co/booking@shikbaris.com", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        alert("Your trip plan has been sent successfully! We'll contact you shortly.");
+        // Reset form
+        setFullName("");
+        setPhNo("");
+        setEmail("");
+        setStateCity("");
+        setTravellers("");
+        setArrivalCity("");
+        setDepartureCity("");
+        setRequirements("");
+        setShowPlan(false);
+        markSeen();
+      } else {
+        throw new Error("Failed to send");
+      }
+    } catch (error) {
+      // Fallback: open mailto link
+      const mailtoLink = `mailto:${MAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailBody)}`;
+      window.open(mailtoLink);
+      setShowPlan(false);
+    }
   };
 
   return (
@@ -269,13 +353,13 @@ export default function HeaderWithWhatsApp() {
         </>
       )}
 
-      {/* ================= PLAN POPUP (SEND TO WHATSAPP) ================= */}
+      {/* ================= PLAN POPUP (SEND TO EMAIL) ================= */}
       {showPlan && (
         <>
           <div className="fixed inset-0 bg-black/50 z-[1100]" onClick={closePlan} />
           <div className="fixed inset-0 z-[1101] flex items-end sm:items-center justify-center p-3">
-            <div className="w-full max-w-[520px] bg-white rounded-2xl shadow-2xl overflow-hidden">
-              <div className="flex items-center justify-between px-4 py-3 bg-[#000721] text-white">
+            <div className="w-full max-w-[520px] bg-white rounded-2xl shadow-2xl overflow-hidden max-h-[90vh] overflow-y-auto">
+              <div className="flex items-center justify-between px-4 py-3 bg-[#000721] text-white sticky top-0">
                 <div className="flex items-center gap-2">
                   <MessageCircle size={18} />
                   <p className="font-semibold text-sm">Plan Your Trip</p>
@@ -287,34 +371,87 @@ export default function HeaderWithWhatsApp() {
 
               <div className="p-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  <Field label="Destination">
+                  {/* Row 1: Full Name */}
+                  <Field label="Full Name *">
                     <input
-                      value={dest}
-                      onChange={(e) => setDest(e.target.value)}
-                      placeholder="e.g. Ooty, Kodaikanal"
+                      value={fullName}
+                      onChange={(e) => setFullName(e.target.value)}
+                      placeholder="Your full name"
                       className={inp}
                     />
                   </Field>
 
-                  <Field label="No. of People">
-                    <input value={people} onChange={(e) => setPeople(e.target.value)} placeholder="e.g. 2" className={inp} />
+                  {/* Row 2: Phone Number */}
+                  <Field label="Phone Number *">
+                    <input
+                      value={phNo}
+                      onChange={(e) => setPhNo(e.target.value)}
+                      placeholder="+91 XXXXXXXXXX"
+                      type="tel"
+                      className={inp}
+                    />
                   </Field>
 
-                  <Field label="From Date">
-                    <input type="date" value={from} onChange={(e) => setFrom(e.target.value)} className={inp} />
+                  {/* Row 3: Email Address */}
+                  <Field label="Email Address *">
+                    <input
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="your.email@example.com"
+                      type="email"
+                      className={inp}
+                    />
                   </Field>
 
-                  <Field label="To Date">
-                    <input type="date" value={to} onChange={(e) => setTo(e.target.value)} className={inp} />
+                  {/* Row 4: State or City */}
+                  <Field label="State or City *">
+                    <input
+                      value={stateCity}
+                      onChange={(e) => setStateCity(e.target.value)}
+                      placeholder="e.g. Kerala, Tamil Nadu"
+                      className={inp}
+                    />
+                  </Field>
+
+                  {/* Row 5: No. of Travellers */}
+                  <Field label="No. of Travellers *">
+                    <input
+                      value={travellers}
+                      onChange={(e) => setTravellers(e.target.value)}
+                      placeholder="e.g. 4"
+                      type="number"
+                      className={inp}
+                    />
+                  </Field>
+
+                  {/* Row 6: Arrival City */}
+                  <Field label="Arrival City *">
+                    <input
+                      value={arrivalCity}
+                      onChange={(e) => setArrivalCity(e.target.value)}
+                      placeholder="e.g. Kochi, Chennai"
+                      className={inp}
+                    />
+                  </Field>
+
+                  {/* Row 7: Departure City */}
+                  <Field label="Departure City *">
+                    <input
+                      value={departureCity}
+                      onChange={(e) => setDepartureCity(e.target.value)}
+                      placeholder="e.g. Kochi, Chennai"
+                      className={inp}
+                    />
                   </Field>
                 </div>
 
-                <Field label="Notes (optional)" className="mt-3">
+                {/* Optional textarea */}
+                <Field label="Describe your travel requirements" className="mt-3">
                   <textarea
-                    value={note}
-                    onChange={(e) => setNote(e.target.value)}
-                    placeholder="Pickup, hotel, places, budget..."
-                    className={`${inp} min-h-[90px] py-3`}
+                    value={requirements}
+                    onChange={(e) => setRequirements(e.target.value)}
+                    placeholder="Tell us about your travel preferences, budget, hotels, places to visit, etc."
+                    className={`${inp} min-h-[100px] py-3`}
                   />
                 </Field>
 
@@ -324,7 +461,7 @@ export default function HeaderWithWhatsApp() {
                     onClick={sendPlan}
                     className="flex-1 h-11 rounded-xl bg-[#0092fb] text-white font-semibold hover:brightness-110 transition"
                   >
-                    Send on WhatsApp
+                    Send Request
                   </button>
                   <button
                     type="button"
@@ -336,7 +473,7 @@ export default function HeaderWithWhatsApp() {
                 </div>
 
                 <p className="mt-3 text-[11px] text-gray-500">
-                  Your trip details will open in WhatsApp chat.
+                  * All fields marked with asterisk are mandatory. We'll contact you at the provided email and phone number.
                 </p>
               </div>
             </div>
