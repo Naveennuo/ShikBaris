@@ -21,23 +21,6 @@ const modules = import.meta.glob("../assets/kerala/**/*.{jpg,jpeg,png,webp}", {
   import: "default",
 }) as Record<string, string>;
 
-const DISTRICT_TITLES = [
-  "Thiruvananthapuram",
-  "Alappuzha",
-  "Ernakulam",
-  "Wayanad",
-  "Kannur",
-  "Palakkad",
-  "Idukki",
-  "Kozhikode",
-  "Kollam",
-  "Kottayam",
-  "Malappuram",
-  "Thrissur",
-  "Kasaragod",
-  "Pathanamthitta",
-] as const;
-
 const normalize = (path: string) => path.replace(/\\/g, "/").toLowerCase();
 
 const cleanName = (name: string) =>
@@ -55,11 +38,27 @@ const createSlug = (title: string) =>
 
 const districtMap: Record<string, District> = {};
 
-DISTRICT_TITLES.forEach((title) => {
-  const slug = createSlug(title);
+const folderSet = new Set<string>();
+
+Object.entries(modules).forEach(([path, src]) => {
+  const normalizedPath = normalize(path);
+
+  if (normalizedPath.includes("/1district/")) return;
+
+  const splitPath = normalizedPath.split("/kerala/")[1];
+  if (!splitPath) return;
+
+  const parts = splitPath.split("/");
+  const folder = parts[0];
+
+  folderSet.add(folder);
+});
+
+folderSet.forEach((folder) => {
+  const slug = createSlug(folder);
 
   districtMap[slug] = {
-    title,
+    title: cleanName(folder),
     slug,
     banner: keralaBanner,
     sights: [],
@@ -89,12 +88,13 @@ Object.entries(modules).forEach(([path, src]) => {
 
   const parts = splitPath.split("/");
   const folder = parts[0];
+  const folderSlug = createSlug(folder);
 
-  if (!districtMap[folder]) return;
+  if (!districtMap[folderSlug]) return;
 
   const fileName = parts.pop() || "";
 
-  districtMap[folder].sights.push({
+  districtMap[folderSlug].sights.push({
     title: cleanName(fileName),
     img: src,
   });
