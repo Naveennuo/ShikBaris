@@ -21,6 +21,7 @@ export default function HeaderWithWhatsApp() {
 
   const [showWaPopup, setShowWaPopup] = useState(false);
   const [showPlan, setShowPlan] = useState(false);
+  const [submitSuccess, setSubmitSuccess] = useState(false);
 
   // Plan form - 7 mandatory fields + optional notes
   const [fullName, setFullName] = useState("");
@@ -72,7 +73,18 @@ export default function HeaderWithWhatsApp() {
   }, []);
 
   const openPlan = () => setShowPlan(true);
-  const closePlan = () => setShowPlan(false);
+  const closePlan = () => {
+    setShowPlan(false);
+    setSubmitSuccess(false);
+    setFullName("");
+    setPhNo("");
+    setEmail("");
+    setStateCity("");
+    setTravellers("");
+    setArrivalCity("");
+    setDepartureCity("");
+    setRequirements("");
+  };
 
   const sendPlan = async () => {
     // Validate all mandatory fields
@@ -129,6 +141,7 @@ export default function HeaderWithWhatsApp() {
       formData.append("departureCity", departureCity);
       formData.append("requirements", requirements);
       formData.append("_subject", subject);
+      formData.append("_cc", email);
       formData.append("_captcha", "false");
 
       const response = await fetch("https://formsubmit.co/booking@shikbaris.com", {
@@ -137,18 +150,7 @@ export default function HeaderWithWhatsApp() {
       });
 
       if (response.ok) {
-        alert("Your trip plan has been sent successfully! We'll contact you shortly.");
-        // Reset form
-        setFullName("");
-        setPhNo("");
-        setEmail("");
-        setStateCity("");
-        setTravellers("");
-        setArrivalCity("");
-        setDepartureCity("");
-        setRequirements("");
-        setShowPlan(false);
-        markSeen();
+        setSubmitSuccess(true);
       } else {
         throw new Error("Failed to send");
       }
@@ -370,111 +372,173 @@ export default function HeaderWithWhatsApp() {
               </div>
 
               <div className="p-4">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  {/* Row 1: Full Name */}
-                  <Field label="Full Name *">
-                    <input
-                      value={fullName}
-                      onChange={(e) => setFullName(e.target.value)}
-                      placeholder="Your full name"
-                      className={inp}
-                    />
-                  </Field>
+                {submitSuccess ? (
+                  // SUCCESS CONFIRMATION SCREEN
+                  <div className="text-center">
+                    <div className="mb-4">
+                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-green-100">
+                        <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                    </div>
+                    
+                    <h2 className="text-2xl font-bold text-[#000721] mb-2">Thank You!</h2>
+                    <p className="text-gray-600 mb-6">Your trip plan has been received successfully.</p>
+                    
+                    <div className="bg-gray-50 rounded-xl p-4 text-left mb-6 space-y-3">
+                      <div className="flex justify-between py-2 border-b border-gray-200">
+                        <span className="text-gray-600 font-medium">Name:</span>
+                        <span className="text-[#000721] font-semibold">{fullName}</span>
+                      </div>
+                      <div className="flex justify-between py-2 border-b border-gray-200">
+                        <span className="text-gray-600 font-medium">Phone:</span>
+                        <span className="text-[#000721] font-semibold">{phNo}</span>
+                      </div>
+                      <div className="flex justify-between py-2 border-b border-gray-200">
+                        <span className="text-gray-600 font-medium">Email:</span>
+                        <span className="text-[#000721] font-semibold text-sm">{email}</span>
+                      </div>
+                      <div className="flex justify-between py-2 border-b border-gray-200">
+                        <span className="text-gray-600 font-medium">Location:</span>
+                        <span className="text-[#000721] font-semibold">{stateCity}</span>
+                      </div>
+                      <div className="flex justify-between py-2 border-b border-gray-200">
+                        <span className="text-gray-600 font-medium">Travellers:</span>
+                        <span className="text-[#000721] font-semibold">{travellers}</span>
+                      </div>
+                      <div className="flex justify-between py-2 border-b border-gray-200">
+                        <span className="text-gray-600 font-medium">Arrival:</span>
+                        <span className="text-[#000721] font-semibold">{arrivalCity}</span>
+                      </div>
+                      <div className="flex justify-between py-2">
+                        <span className="text-gray-600 font-medium">Departure:</span>
+                        <span className="text-[#000721] font-semibold">{departureCity}</span>
+                      </div>
+                    </div>
 
-                  {/* Row 2: Phone Number */}
-                  <Field label="Phone Number *">
-                    <input
-                      value={phNo}
-                      onChange={(e) => setPhNo(e.target.value)}
-                      placeholder="+91 XXXXXXXXXX"
-                      type="tel"
-                      className={inp}
-                    />
-                  </Field>
+                    <p className="text-sm text-gray-500 mb-6">
+                      We'll review your request and contact you shortly at <span className="font-semibold">{phNo}</span> and <span className="font-semibold">{email}</span> with customized packages and pricing.
+                    </p>
 
-                  {/* Row 3: Email Address */}
-                  <Field label="Email Address *">
-                    <input
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      placeholder="your.email@example.com"
-                      type="email"
-                      className={inp}
-                    />
-                  </Field>
+                    <button
+                      type="button"
+                      onClick={closePlan}
+                      className="w-full h-11 rounded-xl bg-[#0092fb] text-white font-semibold hover:brightness-110 transition"
+                    >
+                      Close
+                    </button>
+                  </div>
+                ) : (
+                  // FORM SCREEN
+                  <>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      {/* Row 1: Full Name */}
+                      <Field label="Full Name *">
+                        <input
+                          value={fullName}
+                          onChange={(e) => setFullName(e.target.value)}
+                          placeholder="Your full name"
+                          className={inp}
+                        />
+                      </Field>
 
-                  {/* Row 4: State or City */}
-                  <Field label="State or City *">
-                    <input
-                      value={stateCity}
-                      onChange={(e) => setStateCity(e.target.value)}
-                      placeholder="e.g. Kerala, Tamil Nadu"
-                      className={inp}
-                    />
-                  </Field>
+                      {/* Row 2: Phone Number */}
+                      <Field label="Phone Number *">
+                        <input
+                          value={phNo}
+                          onChange={(e) => setPhNo(e.target.value)}
+                          placeholder="+91 XXXXXXXXXX"
+                          type="tel"
+                          className={inp}
+                        />
+                      </Field>
 
-                  {/* Row 5: No. of Travellers */}
-                  <Field label="No. of Travellers *">
-                    <input
-                      value={travellers}
-                      onChange={(e) => setTravellers(e.target.value)}
-                      placeholder="e.g. 4"
-                      type="number"
-                      className={inp}
-                    />
-                  </Field>
+                      {/* Row 3: Email Address */}
+                      <Field label="Email Address *">
+                        <input
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                          placeholder="your.email@example.com"
+                          type="email"
+                          className={inp}
+                        />
+                      </Field>
 
-                  {/* Row 6: Arrival City */}
-                  <Field label="Arrival City *">
-                    <input
-                      value={arrivalCity}
-                      onChange={(e) => setArrivalCity(e.target.value)}
-                      placeholder="e.g. Kochi, Chennai"
-                      className={inp}
-                    />
-                  </Field>
+                      {/* Row 4: State or City */}
+                      <Field label="State or City *">
+                        <input
+                          value={stateCity}
+                          onChange={(e) => setStateCity(e.target.value)}
+                          placeholder="e.g. Kerala, Tamil Nadu"
+                          className={inp}
+                        />
+                      </Field>
 
-                  {/* Row 7: Departure City */}
-                  <Field label="Departure City *">
-                    <input
-                      value={departureCity}
-                      onChange={(e) => setDepartureCity(e.target.value)}
-                      placeholder="e.g. Kochi, Chennai"
-                      className={inp}
-                    />
-                  </Field>
-                </div>
+                      {/* Row 5: No. of Travellers */}
+                      <Field label="No. of Travellers *">
+                        <input
+                          value={travellers}
+                          onChange={(e) => setTravellers(e.target.value)}
+                          placeholder="e.g. 4"
+                          type="number"
+                          className={inp}
+                        />
+                      </Field>
 
-                {/* Optional textarea */}
-                <Field label="Describe your travel requirements" className="mt-3">
-                  <textarea
-                    value={requirements}
-                    onChange={(e) => setRequirements(e.target.value)}
-                    placeholder="Tell us about your travel preferences, budget, hotels, places to visit, etc."
-                    className={`${inp} min-h-[100px] py-3`}
-                  />
-                </Field>
+                      {/* Row 6: Arrival City */}
+                      <Field label="Arrival City *">
+                        <input
+                          value={arrivalCity}
+                          onChange={(e) => setArrivalCity(e.target.value)}
+                          placeholder="e.g. Kochi, Chennai"
+                          className={inp}
+                        />
+                      </Field>
 
-                <div className="mt-4 flex gap-2">
-                  <button
-                    type="button"
-                    onClick={sendPlan}
-                    className="flex-1 h-11 rounded-xl bg-[#0092fb] text-white font-semibold hover:brightness-110 transition"
-                  >
-                    Send Request
-                  </button>
-                  <button
-                    type="button"
-                    onClick={closePlan}
-                    className="h-11 px-4 rounded-xl bg-gray-100 text-[#003a64] font-semibold hover:bg-gray-200 transition"
-                  >
-                    Cancel
-                  </button>
-                </div>
+                      {/* Row 7: Departure City */}
+                      <Field label="Departure City *">
+                        <input
+                          value={departureCity}
+                          onChange={(e) => setDepartureCity(e.target.value)}
+                          placeholder="e.g. Kochi, Chennai"
+                          className={inp}
+                        />
+                      </Field>
+                    </div>
 
-                <p className="mt-3 text-[11px] text-gray-500">
-                  * All fields marked with asterisk are mandatory. We'll contact you at the provided email and phone number.
-                </p>
+                    {/* Optional textarea */}
+                    <Field label="Describe your travel requirements" className="mt-3">
+                      <textarea
+                        value={requirements}
+                        onChange={(e) => setRequirements(e.target.value)}
+                        placeholder="Tell us about your travel preferences, budget, hotels, places to visit, etc."
+                        className={`${inp} min-h-[100px] py-3`}
+                      />
+                    </Field>
+
+                    <div className="mt-4 flex gap-2">
+                      <button
+                        type="button"
+                        onClick={sendPlan}
+                        className="flex-1 h-11 rounded-xl bg-[#0092fb] text-white font-semibold hover:brightness-110 transition"
+                      >
+                        Send Request
+                      </button>
+                      <button
+                        type="button"
+                        onClick={closePlan}
+                        className="h-11 px-4 rounded-xl bg-gray-100 text-[#003a64] font-semibold hover:bg-gray-200 transition"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+
+                    <p className="mt-3 text-[11px] text-gray-500">
+                      * All fields marked with asterisk are mandatory. We'll contact you at the provided email and phone number.
+                    </p>
+                  </>
+                )}
               </div>
             </div>
           </div>

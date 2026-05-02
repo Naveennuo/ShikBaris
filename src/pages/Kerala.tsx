@@ -71,7 +71,8 @@ Object.entries(modules).forEach(([path, src]) => {
   if (!normalizedPath.includes("/1district/")) return;
 
   const fileName = normalizedPath.split("/").pop() || "";
-  const slug = fileName.replace(/\.[^.]+$/, "");
+  const fileNameWithoutExt = fileName.replace(/\.[^.]+$/, "");
+  const slug = createSlug(fileNameWithoutExt);
 
   if (!districtMap[slug]) return;
 
