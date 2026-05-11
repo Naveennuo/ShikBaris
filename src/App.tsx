@@ -15,6 +15,7 @@ import RatingReviews from "./sections/RatingReviews";
 
 /* ✅ SINGLE FILE IMPORT */
 import { Kerala, KeralaDistrictPage } from "./pages/Kerala";
+import { Karnataka, KarnatakaDistrictPage } from "./pages/Karnataka";
 import { TamilNadu, DistrictPage } from "./pages/TamilNadu";
 
 /* ---------- Home Page ---------- */
@@ -45,6 +46,8 @@ export default function App() {
 
           <Route path="/kerala" element={<Kerala />} />
           <Route path="/kerala/:districtSlug" element={<KeralaDistrictPage />} />
+          <Route path="/karnataka" element={<Karnataka />} />
+          <Route path="/karnataka/:districtSlug" element={<KarnatakaDistrictPage />} />
           <Route path="/tamilnadu" element={<TamilNadu />} />
           <Route path="/tamilnadu/:districtSlug" element={<DistrictPage />} />
         </Routes>

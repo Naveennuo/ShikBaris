@@ -1,0 +1,4 @@
+# One place per line. Blank lines and # comments are ignored.
+Marina Beach Chennai
+Vivekananda Rock Memorial Kanyakumari
+Munnar Kerala
