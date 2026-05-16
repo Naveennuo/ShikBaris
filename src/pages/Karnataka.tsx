@@ -62,8 +62,7 @@ const normalize = (path: string) => path.replace(/\\/g, "/").toLowerCase();
 const cleanName = (name: string) =>
   name
     .replace(/\.[^.]+$/, "")
-    .replace(/[-_]/g, " ")
-    .replace(/\b\w/g, (char) => char.toUpperCase());
+    .replace(/[-_]/g, " ");
 
 const createSlug = (title: string) =>
   title

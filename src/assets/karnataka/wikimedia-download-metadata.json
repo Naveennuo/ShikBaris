@@ -1,0 +1,1438 @@
+{
+  "downloadedAt": "2026-05-16T21:19:04.633Z",
+  "note": "Images were fetched from Wikipedia/Wikimedia lead images. Review metadata before publishing.",
+  "results": [
+    {
+      "label": "Bangalore district banner",
+      "pageTitle": "Bangalore Palace",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\bangalore.jpg",
+      "title": "Bangalore Palace"
+    },
+    {
+      "label": "Coorg district banner",
+      "pageTitle": "Kodagu district",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\coorg.jpg",
+      "title": "Kodagu district"
+    },
+    {
+      "label": "Chikmagalur district banner",
+      "pageTitle": "Chikmagalur",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\chikmagalur.jpg",
+      "title": "Chikmagalur"
+    },
+    {
+      "label": "Mysore district banner",
+      "pageTitle": "Mysore Palace",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\mysore.jpg",
+      "title": "Mysore Palace"
+    },
+    {
+      "label": "Nandhi Hills district banner",
+      "pageTitle": "Nandi Hills, India",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\nandhi-hills.jpg",
+      "title": "Nandi Hills, India"
+    },
+    {
+      "label": "Gokarna district banner",
+      "pageTitle": "Gokarna, Karnataka",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\gokarna.jpg",
+      "title": "Gokarna, Karnataka"
+    },
+    {
+      "label": "Mangalore district banner",
+      "pageTitle": "Mangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\mangalore.jpg",
+      "title": "Mangalore"
+    },
+    {
+      "label": "Hampi district banner",
+      "pageTitle": "Hampi",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\hampi.jpg",
+      "title": "Hampi"
+    },
+    {
+      "label": "Kabini district banner",
+      "pageTitle": "Kabini River",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\kabini.jpg",
+      "title": "Kabini River"
+    },
+    {
+      "label": "Murudeshwar district banner",
+      "pageTitle": "Murdeshwar",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\murudeshwar.jpg",
+      "title": "Murdeshwar"
+    },
+    {
+      "label": "Sakleshpur district banner",
+      "pageTitle": "Sakleshpur",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\sakleshpur.jpg",
+      "title": "Sakleshpur"
+    },
+    {
+      "label": "Udupi district banner",
+      "pageTitle": "Udupi Sri Krishna Matha",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\udupi.jpg",
+      "title": "Udupi Sri Krishna Matha"
+    },
+    {
+      "label": "Bidar district banner",
+      "pageTitle": "Bidar Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\bidar.jpg",
+      "title": "Bidar Fort"
+    },
+    {
+      "label": "Hoskote district banner",
+      "pageTitle": "Hoskote",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\hoskote.jpg",
+      "title": "Hoskote"
+    },
+    {
+      "label": "Dandeli district banner",
+      "pageTitle": "Dandeli",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\dandeli.jpg",
+      "title": "Dandeli"
+    },
+    {
+      "label": "Nagarhole district banner",
+      "pageTitle": "Nagarhole National Park",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\nagarhole.jpg",
+      "title": "Nagarhole National Park"
+    },
+    {
+      "label": "Belgaum district banner",
+      "pageTitle": "Belgaum Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\belgaum.jpg",
+      "title": "Belgaum Fort"
+    },
+    {
+      "label": "Kolar district banner",
+      "pageTitle": "Kotilingeshwara",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\kolar.jpg",
+      "title": "Kotilingeshwara"
+    },
+    {
+      "label": "Hubli district banner",
+      "pageTitle": "Chandramouleshwara Temple Hubli",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\hubli.jpg",
+      "title": "Chandramouleshwara Temple Hubli"
+    },
+    {
+      "label": "Manipal district banner",
+      "pageTitle": "Manipal",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\manipal.jpg",
+      "title": "Manipal"
+    },
+    {
+      "label": "Shimoga district banner",
+      "pageTitle": "Shivamogga",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\shimoga.jpg",
+      "title": "Shivamogga"
+    },
+    {
+      "label": "Hassan district banner",
+      "pageTitle": "Hoysaleswara Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\hassan.jpg",
+      "title": "Hoysaleswara Temple"
+    },
+    {
+      "label": "Tumkur district banner",
+      "pageTitle": "Devarayanadurga",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\tumkur.jpg",
+      "title": "Devarayanadurga"
+    },
+    {
+      "label": "Gulbarga district banner",
+      "pageTitle": "Gulbarga Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\gulbarga.jpg",
+      "title": "Gulbarga Fort"
+    },
+    {
+      "label": "Sringeri district banner",
+      "pageTitle": "Sringeri Sharada Peetham",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\sringeri.jpg",
+      "title": "Sringeri Sharada Peetham"
+    },
+    {
+      "label": "Bijapur district banner",
+      "pageTitle": "Gol Gumbaz",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\bijapur.jpg",
+      "title": "Gol Gumbaz"
+    },
+    {
+      "label": "Belur district banner",
+      "pageTitle": "Chennakeshava Temple, Belur",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\belur.jpg",
+      "title": "Chennakeshava Temple, Belur"
+    },
+    {
+      "label": "Badami district banner",
+      "pageTitle": "Badami cave temples",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\badami.jpg",
+      "title": "Badami cave temples"
+    },
+    {
+      "label": "Davangere district banner",
+      "pageTitle": "Davangere",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\davangere.jpg",
+      "title": "Davangere"
+    },
+    {
+      "label": "Chitradurga district banner",
+      "pageTitle": "Chitradurga Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\1district\\chitradurga.jpg",
+      "title": "Chitradurga Fort"
+    },
+    {
+      "label": "bangalore place: ISKCON Temple",
+      "pageTitle": "ISKCON Temple Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\ISKCON Temple.jpg",
+      "title": "ISKCON Temple Bangalore"
+    },
+    {
+      "label": "bangalore place: Lalbagh Botanical Garden",
+      "pageTitle": "Lal Bagh Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Lalbagh Botanical Garden.jpg",
+      "title": "Lal Bagh Bangalore"
+    },
+    {
+      "label": "bangalore place: Aquarium Paradise",
+      "pageTitle": "Aquarium Paradise Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Aquarium Paradise.jpg",
+      "title": "Aquarium Paradise Bangalore"
+    },
+    {
+      "label": "bangalore place: Cubbon Park",
+      "pageTitle": "Cubbon Park",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Cubbon Park.jpg",
+      "title": "Cubbon Park"
+    },
+    {
+      "label": "bangalore place: Wonderla",
+      "pageTitle": "Wonderla Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Wonderla.jpeg",
+      "title": "Wonderla Bangalore"
+    },
+    {
+      "label": "bangalore place: Bannerughatta Biological Park",
+      "pageTitle": "Bannerghatta Biological Park",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Bannerughatta Biological Park.jpg",
+      "title": "Bannerghatta Biological Park"
+    },
+    {
+      "label": "bangalore place: Central Mall",
+      "pageTitle": "Bangalore Central Mall",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Central Mall.jpg",
+      "title": "Bangalore Central Mall"
+    },
+    {
+      "label": "bangalore place: Bangalore Palace",
+      "pageTitle": "Bangalore Palace",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Bangalore Palace.jpg",
+      "title": "Bangalore Palace"
+    },
+    {
+      "label": "bangalore place: Phoenix Mall",
+      "pageTitle": "Phoenix Marketcity Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Phoenix Mall.jpg",
+      "title": "Phoenix Marketcity Bangalore"
+    },
+    {
+      "label": "bangalore place: Orion Mall",
+      "pageTitle": "Orion Mall Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Orion Mall.jpg",
+      "title": "Orion Mall Bangalore"
+    },
+    {
+      "label": "bangalore place: Vidhana Soudha",
+      "pageTitle": "Vidhana Soudha",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Vidhana Soudha.jpg",
+      "title": "Vidhana Soudha"
+    },
+    {
+      "label": "bangalore place: Chinnaswamy Stadium",
+      "pageTitle": "M. Chinnaswamy Stadium",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Chinnaswamy Stadium.jpg",
+      "title": "M. Chinnaswamy Stadium"
+    },
+    {
+      "label": "bangalore place: Fun World Amusement Park",
+      "pageTitle": "Fun World Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Fun World Amusement Park.jpg",
+      "title": "Fun World Bangalore"
+    },
+    {
+      "label": "bangalore place: Venkatappa Art Gallery",
+      "pageTitle": "Venkatappa Art Gallery",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Venkatappa Art Gallery.jpg",
+      "title": "Venkatappa Art Gallery"
+    },
+    {
+      "label": "bangalore place: Government Museum",
+      "pageTitle": "Government Museum Bangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\bangalore\\Government Museum.jpg",
+      "title": "Government Museum Bangalore"
+    },
+    {
+      "label": "coorg place: Raja Seat Garden",
+      "pageTitle": "Raja Seat",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Raja Seat Garden.jpg",
+      "title": "Raja Seat"
+    },
+    {
+      "label": "coorg place: Abby Water Falls",
+      "pageTitle": "Abbey Falls",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Abby Water Falls.jpg",
+      "title": "Abbey Falls"
+    },
+    {
+      "label": "coorg place: Mallalli Water Falls",
+      "pageTitle": "Mallalli Falls",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Mallalli Water Falls.jpg",
+      "title": "Mallalli Falls"
+    },
+    {
+      "label": "coorg place: Nagarahole Tiger Reserve",
+      "pageTitle": "Nagarhole National Park",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Nagarahole Tiger Reserve.jpg",
+      "title": "Nagarhole National Park"
+    },
+    {
+      "label": "coorg place: Irpu Water Falls",
+      "pageTitle": "Iruppu Falls",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Irpu Water Falls.jpg",
+      "title": "Iruppu Falls"
+    },
+    {
+      "label": "coorg place: Dubare Elephant Camp",
+      "pageTitle": "Dubare Elephant Camp",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Dubare Elephant Camp.jpg",
+      "title": "Dubare Elephant Camp"
+    },
+    {
+      "label": "coorg place: Golden Temple",
+      "pageTitle": "Namdroling Monastery Golden Temple Coorg",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Golden Temple.jpg",
+      "title": "Namdroling Monastery Golden Temple Coorg"
+    },
+    {
+      "label": "coorg place: Omkareshwara Temple",
+      "pageTitle": "Omkareshwara Temple Madikeri",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Omkareshwara Temple.jpg",
+      "title": "Omkareshwara Temple Madikeri"
+    },
+    {
+      "label": "coorg place: Thalakaveri Temple",
+      "pageTitle": "Talakaveri",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Thalakaveri Temple.jpg",
+      "title": "Talakaveri"
+    },
+    {
+      "label": "coorg place: Chiklihole Reservoir",
+      "pageTitle": "Chiklihole Reservoir",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Chiklihole Reservoir.jpg",
+      "imageUrl": "https://cdn.s3waas.gov.in/s3c8ed21db4f678f3b13b9d5ee16489088/uploads/bfi_thumb/2018070764-olwcjtmpsj4jmqalepychvyaptgsg0vb13qkfbcdje.jpg",
+      "sourcePage": "https://kodagu.nic.in/en/tourist-place/chiklihole-reservoir/",
+      "title": "Chiklihole Reservoir"
+    },
+    {
+      "label": "coorg place: Mandalpatti Peak",
+      "pageTitle": "Mandalpatti",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Mandalpatti Peak.jpg",
+      "title": "Mandalpatti"
+    },
+    {
+      "label": "coorg place: Coffee Plantations",
+      "pageTitle": "Coorg coffee plantation",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Coffee Plantations.jpg",
+      "title": "Coorg coffee plantation"
+    },
+    {
+      "label": "coorg place: Pushpagiri Wildlife Sanctuary",
+      "pageTitle": "Pushpagiri Wildlife Sanctuary",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Pushpagiri Wildlife Sanctuary.jpg",
+      "title": "Pushpagiri Wildlife Sanctuary"
+    },
+    {
+      "label": "coorg place: Nisargadhama",
+      "pageTitle": "Nisargadhama",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Nisargadhama.jpg",
+      "title": "Nisargadhama"
+    },
+    {
+      "label": "coorg place: Raja's Tomb",
+      "pageTitle": "Raja Tomb Madikeri",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Raja's Tomb.jpg",
+      "title": "Raja Tomb Madikeri"
+    },
+    {
+      "label": "coorg place: Sri Bhagandeshwara Temple",
+      "pageTitle": "Bhagandeshwara Temple Bhagamandala",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Sri Bhagandeshwara Temple.jpg",
+      "title": "Bhagandeshwara Temple Bhagamandala"
+    },
+    {
+      "label": "coorg place: Chelavara Water Falls",
+      "pageTitle": "Chelavara Falls",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Chelavara Water Falls.jpg",
+      "title": "Chelavara Falls"
+    },
+    {
+      "label": "coorg place: Harangi Reservoir",
+      "pageTitle": "Harangi Dam",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Harangi Reservoir.jpg",
+      "title": "Harangi Dam"
+    },
+    {
+      "label": "coorg place: Madikeri Fort",
+      "pageTitle": "Madikeri Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Madikeri Fort.jpg",
+      "title": "Madikeri Fort"
+    },
+    {
+      "label": "coorg place: Government Museum",
+      "pageTitle": "Government Museum Madikeri",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\coorg\\Government Museum.jpg",
+      "title": "Government Museum Madikeri"
+    },
+    {
+      "label": "chikmagalur place: Mullayanagiri",
+      "pageTitle": "Mullayanagiri",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Mullayanagiri.jpg",
+      "title": "Mullayanagiri"
+    },
+    {
+      "label": "chikmagalur place: Hebbe Falls",
+      "pageTitle": "Hebbe Falls",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Hebbe Falls.jpg",
+      "title": "Hebbe Falls"
+    },
+    {
+      "label": "chikmagalur place: Kudremukh Peak",
+      "pageTitle": "Kudremukh peak",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Kudremukh Peak.jpg",
+      "title": "Kudremukh peak"
+    },
+    {
+      "label": "chikmagalur place: Bhadra Wildlife Sanctuary",
+      "pageTitle": "Bhadra Wildlife Sanctuary",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Bhadra Wildlife Sanctuary.jpg",
+      "title": "Bhadra Wildlife Sanctuary"
+    },
+    {
+      "label": "chikmagalur place: Jhari Water Falls",
+      "pageTitle": "Jhari Falls",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Jhari Water Falls.jpg",
+      "title": "Jhari Falls"
+    },
+    {
+      "label": "chikmagalur place: Z Point",
+      "pageTitle": "Z Point Kemmanagundi",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Z Point.jpg",
+      "title": "Z Point Kemmanagundi"
+    },
+    {
+      "label": "chikmagalur place: Baba Budangiri",
+      "pageTitle": "Baba Budangiri",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Baba Budangiri.jpg",
+      "title": "Baba Budangiri"
+    },
+    {
+      "label": "chikmagalur place: Kudremukh National Park",
+      "pageTitle": "Kudremukh National Park",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Kudremukh National Park.jpg",
+      "title": "Kudremukh National Park"
+    },
+    {
+      "label": "chikmagalur place: Hirekolale Lake",
+      "pageTitle": "Hirekolale Lake",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Hirekolale Lake.jpg",
+      "title": "Hirekolale Lake"
+    },
+    {
+      "label": "chikmagalur place: Sri Annapurneshwari Temple",
+      "pageTitle": "Annapoorneshwari Temple Horanadu",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Sri Annapurneshwari Temple.jpg",
+      "title": "Annapoorneshwari Temple Horanadu"
+    },
+    {
+      "label": "chikmagalur place: Belavadi",
+      "pageTitle": "Belavadi",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Belavadi.jpg",
+      "title": "Belavadi"
+    },
+    {
+      "label": "chikmagalur place: Sri Amrutesvara Temple",
+      "pageTitle": "Amrutesvara Temple Amruthapura",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Sri Amrutesvara Temple.jpg",
+      "title": "Amrutesvara Temple Amruthapura"
+    },
+    {
+      "label": "chikmagalur place: Ballalarayana Durga Fort",
+      "pageTitle": "Ballalarayana Durga Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Ballalarayana Durga Fort.png",
+      "imageUrl": "https://seawatersports.com/images/places/ballalarayana-durga-fort.png",
+      "sourcePage": "https://seawatersports.com/places/karnataka/ballalarayana-durga-fort",
+      "title": "Ballalarayana Durga Fort"
+    },
+    {
+      "label": "chikmagalur place: Mahadhma Gandhi Park",
+      "pageTitle": "Mahatma Gandhi Park Chikmagalur",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\chikmagalur\\Mahadhma Gandhi Park.jpg",
+      "title": "Mahatma Gandhi Park Chikmagalur"
+    },
+    {
+      "label": "mysore place: Mysore Palace",
+      "pageTitle": "Mysore Palace",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Mysore Palace.jpg",
+      "title": "Mysore Palace"
+    },
+    {
+      "label": "mysore place: Venugopala Swamy Temple",
+      "pageTitle": "Venugopala Swamy Temple Mysore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Venugopala Swamy Temple.jpg",
+      "title": "Venugopala Swamy Temple Mysore"
+    },
+    {
+      "label": "mysore place: Sri Chamarajendra Zoological Gardens",
+      "pageTitle": "Mysore Zoo",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Sri Chamarajendra Zoological Gardens.jpg",
+      "title": "Mysore Zoo"
+    },
+    {
+      "label": "mysore place: Sri Chamundi Hills",
+      "pageTitle": "Chamundi Hills",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Sri Chamundi Hills.jpg",
+      "title": "Chamundi Hills"
+    },
+    {
+      "label": "mysore place: GRS Fantasy Park",
+      "pageTitle": "GRS Fantasy Park Mysore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\GRS Fantasy Park.jpg",
+      "title": "GRS Fantasy Park Mysore"
+    },
+    {
+      "label": "mysore place: St. Philomena's Church",
+      "pageTitle": "St. Philomena's Cathedral Mysore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\St. Philomena's Church.jpg",
+      "title": "St. Philomena's Cathedral Mysore"
+    },
+    {
+      "label": "mysore place: Sand Sculpture Museum",
+      "pageTitle": "Mysore Sand Sculpture Museum",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Sand Sculpture Museum.jpg",
+      "title": "Mysore Sand Sculpture Museum"
+    },
+    {
+      "label": "mysore place: Brindavan Gardens",
+      "pageTitle": "Brindavan Gardens",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Brindavan Gardens.jpg",
+      "title": "Brindavan Gardens"
+    },
+    {
+      "label": "mysore place: Tippu Sultan Death Place",
+      "pageTitle": "Tipu Sultan death place Srirangapatna",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Tippu Sultan Death Place.jpg",
+      "title": "Tipu Sultan death place Srirangapatna"
+    },
+    {
+      "label": "mysore place: Tippu Sultan Fort",
+      "pageTitle": "Srirangapatna Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Tippu Sultan Fort.jpg",
+      "title": "Srirangapatna Fort"
+    },
+    {
+      "label": "mysore place: Tippu Sultan Summer Palace",
+      "pageTitle": "Daria Daulat Bagh",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Tippu Sultan Summer Palace.jpg",
+      "title": "Daria Daulat Bagh"
+    },
+    {
+      "label": "mysore place: Daria Daulat Bagh",
+      "pageTitle": "Daria Daulat Bagh",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Daria Daulat Bagh.jpg",
+      "title": "Daria Daulat Bagh"
+    },
+    {
+      "label": "mysore place: Triveni Sangamam",
+      "pageTitle": "Triveni Sangama Srirangapatna",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Triveni Sangamam.jpg",
+      "title": "Triveni Sangama Srirangapatna"
+    },
+    {
+      "label": "mysore place: Water Gate & Secret Door to Fort",
+      "pageTitle": "Water Gate Srirangapatna Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mysore\\Water Gate & Secret Door to Fort.jpg",
+      "title": "Water Gate Srirangapatna Fort"
+    },
+    {
+      "label": "nandhi-hills place: Sri Bhoga Nandishwara Gudi",
+      "pageTitle": "Bhoga Nandeeshwara Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\nandhi-hills\\Sri Bhoga Nandishwara Gudi.jpg",
+      "title": "Bhoga Nandeeshwara Temple"
+    },
+    {
+      "label": "nandhi-hills place: Sri Yoganandeeswara Temple",
+      "pageTitle": "Yoganandeeshwara Temple Nandi Hills",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\nandhi-hills\\Sri Yoganandeeswara Temple.jpg",
+      "title": "Yoganandeeshwara Temple Nandi Hills"
+    },
+    {
+      "label": "nandhi-hills place: Nandhi Pushkarini",
+      "pageTitle": "Nandi Hills Pushkarini",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\nandhi-hills\\Nandhi Pushkarini.jpg",
+      "title": "Nandi Hills Pushkarini"
+    },
+    {
+      "label": "nandhi-hills place: Nandi Hill View Point",
+      "pageTitle": "Nandi Hills view point",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\nandhi-hills\\Nandi Hill View Point.jpg",
+      "title": "Nandi Hills view point"
+    },
+    {
+      "label": "gokarna place: Sri Mahabaleshwara Temple",
+      "pageTitle": "Mahabaleshwar Temple Gokarna",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Sri Mahabaleshwara Temple.jpg",
+      "title": "Mahabaleshwar Temple Gokarna"
+    },
+    {
+      "label": "gokarna place: Om Beach",
+      "pageTitle": "Om Beach",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Om Beach.jpg",
+      "title": "Om Beach"
+    },
+    {
+      "label": "gokarna place: Gogarbha Shiva Cave",
+      "pageTitle": "Gogarbha Cave Gokarna",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Gogarbha Shiva Cave.jpg",
+      "imageUrl": "https://www.gokarnatourism.co.in/images/places-to-visit/header/shiva-cave-gokarna-indian-tourism-entry-fee-timings-holidays-reviews-header.jpg",
+      "sourcePage": "https://www.gokarnatourism.co.in/shiva-cave-gokarna",
+      "title": "Gogarbha Shiva Cave"
+    },
+    {
+      "label": "gokarna place: Kudle Beach",
+      "pageTitle": "Kudle Beach",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Kudle Beach.jpg",
+      "title": "Kudle Beach"
+    },
+    {
+      "label": "gokarna place: Paradise Beach",
+      "pageTitle": "Paradise Beach Gokarna",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Paradise Beach.jpg",
+      "title": "Paradise Beach Gokarna"
+    },
+    {
+      "label": "gokarna place: Belekan Beach",
+      "pageTitle": "Belekan Beach Gokarna",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Belekan Beach.jpg",
+      "title": "Belekan Beach Gokarna"
+    },
+    {
+      "label": "gokarna place: Gokarna Main Beach",
+      "pageTitle": "Gokarna Main Beach",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Gokarna Main Beach.jpg",
+      "title": "Gokarna Main Beach"
+    },
+    {
+      "label": "gokarna place: Half Moon Beach",
+      "pageTitle": "Half Moon Beach Gokarna",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Half Moon Beach.jpg",
+      "title": "Half Moon Beach Gokarna"
+    },
+    {
+      "label": "gokarna place: Mirjan Fort",
+      "pageTitle": "Mirjan Fort",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Mirjan Fort.jpg",
+      "title": "Mirjan Fort"
+    },
+    {
+      "label": "gokarna place: Yana Caves",
+      "pageTitle": "Yana Caves",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\gokarna\\Yana Caves.jpg",
+      "title": "Yana Caves"
+    },
+    {
+      "label": "mangalore place: Sri Mangaladevi Temple",
+      "pageTitle": "Mangaladevi Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Sri Mangaladevi Temple.jpg",
+      "title": "Mangaladevi Temple"
+    },
+    {
+      "label": "mangalore place: Kedri Sri Manjunatha Temple",
+      "pageTitle": "Kadri Manjunath Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Kedri Sri Manjunatha Temple.jpg",
+      "title": "Kadri Manjunath Temple"
+    },
+    {
+      "label": "mangalore place: St. Aloysius Chapel",
+      "pageTitle": "St. Aloysius Chapel Mangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\St. Aloysius Chapel.jpg",
+      "title": "St. Aloysius Chapel Mangalore"
+    },
+    {
+      "label": "mangalore place: Kudroli Sri Gokarnanatha Kshetra",
+      "pageTitle": "Kudroli Gokarnath Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Kudroli Sri Gokarnanatha Kshetra.jpg",
+      "title": "Kudroli Gokarnath Temple"
+    },
+    {
+      "label": "mangalore place: Surathkal Lighthouse Beach",
+      "pageTitle": "Surathkal Beach lighthouse",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Surathkal Lighthouse Beach.jpg",
+      "title": "Surathkal Beach lighthouse"
+    },
+    {
+      "label": "mangalore place: Panambur Beach",
+      "pageTitle": "Panambur Beach",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Panambur Beach.jpg",
+      "title": "Panambur Beach"
+    },
+    {
+      "label": "mangalore place: Sri Durgaparameshwari Temple",
+      "pageTitle": "Kateel Durgaparameshwari Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Sri Durgaparameshwari Temple.jpg",
+      "title": "Kateel Durgaparameshwari Temple"
+    },
+    {
+      "label": "mangalore place: Fiza By Nexus",
+      "pageTitle": "Fiza by Nexus Mall Mangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Fiza By Nexus.jpg",
+      "title": "Fiza by Nexus Mall Mangalore"
+    },
+    {
+      "label": "mangalore place: Tannirbhavi Beach",
+      "pageTitle": "Tannirbhavi Beach",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Tannirbhavi Beach.jpg",
+      "title": "Tannirbhavi Beach"
+    },
+    {
+      "label": "mangalore place: Sri Sharavu Mahaganapathi Temple",
+      "pageTitle": "Sharavu Mahaganapathi Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Sri Sharavu Mahaganapathi Temple.jpg",
+      "title": "Sharavu Mahaganapathi Temple"
+    },
+    {
+      "label": "mangalore place: Milagres Church",
+      "pageTitle": "Milagres Church Mangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Milagres Church.jpg",
+      "title": "Milagres Church Mangalore"
+    },
+    {
+      "label": "mangalore place: Pilikula Nisargadhama",
+      "pageTitle": "Pilikula Nisargadhama",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Pilikula Nisargadhama.jpg",
+      "title": "Pilikula Nisargadhama"
+    },
+    {
+      "label": "mangalore place: Our Lady Of Rosary Cathedral",
+      "pageTitle": "Our Lady of Rosary Cathedral Mangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Our Lady Of Rosary Cathedral.jpg",
+      "title": "Our Lady of Rosary Cathedral Mangalore"
+    },
+    {
+      "label": "mangalore place: Kudroli Sri Bhagavathi Temple",
+      "pageTitle": "Kudroli Bhagavathi Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Kudroli Sri Bhagavathi Temple.jpg",
+      "title": "Kudroli Bhagavathi Temple"
+    },
+    {
+      "label": "mangalore place: Kadri Park",
+      "pageTitle": "Kadri Park Mangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Kadri Park.jpg",
+      "title": "Kadri Park Mangalore"
+    },
+    {
+      "label": "mangalore place: Ullal Beach",
+      "pageTitle": "Ullal Beach",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Ullal Beach.jpg",
+      "title": "Ullal Beach"
+    },
+    {
+      "label": "mangalore place: Sri Rajarajeshwari Temple",
+      "pageTitle": "Polali Rajarajeshwari Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Sri Rajarajeshwari Temple.jpg",
+      "title": "Polali Rajarajeshwari Temple"
+    },
+    {
+      "label": "mangalore place: Kukke Sri Subrahmanya Temple",
+      "pageTitle": "Kukke Subramanya Temple",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Kukke Sri Subrahmanya Temple.jpg",
+      "title": "Kukke Subramanya Temple"
+    },
+    {
+      "label": "mangalore place: Someshwar Beach",
+      "pageTitle": "Someshwar Beach Mangalore",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\mangalore\\Someshwar Beach.jpg",
+      "title": "Someshwar Beach Mangalore"
+    },
+    {
+      "label": "hampi place: Virupaksha Temple, Hampi",
+      "pageTitle": "Virupaksha Temple, Hampi",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hampi\\Virupaksha Temple, Hampi.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg/3840px-Complex_of_Virupaksha_Temple%2C_Hampi_%2804%29.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Virupaksha_Temple%2C_Hampi",
+      "title": "Virupaksha Temple, Hampi"
+    },
+    {
+      "label": "hampi place: Vijaya Vittala Temple",
+      "pageTitle": "Vijaya Vittala Temple",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hampi\\Vijaya Vittala Temple.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Hampi%2C_India%2C_Stone_ornaments_at_Vijaya_Vitthala_Temple.jpg/1920px-Hampi%2C_India%2C_Stone_ornaments_at_Vijaya_Vitthala_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHampi%2C_India%2C_Stone_ornaments_at_Vijaya_Vitthala_Temple.jpg",
+      "title": "File:Hampi, India, Stone ornaments at Vijaya Vitthala Temple.jpg"
+    },
+    {
+      "label": "hampi place: Stone Chariot Hampi",
+      "pageTitle": "Stone Chariot Hampi",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hampi\\Stone Chariot Hampi.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Stone_Chariot_Hampi%28Karnataka%29.jpg/1920px-Stone_Chariot_Hampi%28Karnataka%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AStone_Chariot_Hampi(Karnataka).jpg",
+      "title": "File:Stone Chariot Hampi(Karnataka).jpg"
+    },
+    {
+      "label": "hampi place: Lotus Mahal",
+      "pageTitle": "Lotus Mahal",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hampi\\Lotus Mahal.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Flat_elevation_of_Lotus_Mahal%2C_Hampi_%28Closeup%29.jpg/3840px-Flat_elevation_of_Lotus_Mahal%2C_Hampi_%28Closeup%29.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Lotus_Mahal",
+      "title": "Lotus Mahal"
+    },
+    {
+      "label": "kabini place: Kabini River",
+      "pageTitle": "Kabini River",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\kabini\\Kabini River.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kabani_River.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Kabini_River",
+      "title": "Kabini River"
+    },
+    {
+      "label": "kabini place: Nagarhole National Park",
+      "pageTitle": "Nagarhole National Park",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\kabini\\Nagarhole National Park.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Bengal_Tiger_Karnataka.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Nagarhole_National_Park",
+      "title": "Nagarhole National Park"
+    },
+    {
+      "label": "murudeshwar place: Murdeshwar",
+      "pageTitle": "Murdeshwar",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\murudeshwar\\Murdeshwar.jpg",
+      "title": "Murdeshwar"
+    },
+    {
+      "label": "murudeshwar place: Murdeshwar Temple",
+      "pageTitle": "Murdeshwar Temple",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\murudeshwar\\Murdeshwar Temple.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/MURDESHWAR_TEMPLE_KARNATAKA%2CINDIA._01.jpg/1920px-MURDESHWAR_TEMPLE_KARNATAKA%2CINDIA._01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMURDESHWAR_TEMPLE_KARNATAKA%2CINDIA._01.jpg",
+      "title": "File:MURDESHWAR TEMPLE KARNATAKA,INDIA. 01.jpg"
+    },
+    {
+      "label": "sakleshpur place: Sakleshpur",
+      "pageTitle": "Sakleshpur",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\sakleshpur\\Sakleshpur.jpg",
+      "title": "Sakleshpur"
+    },
+    {
+      "label": "sakleshpur place: Manjarabad Fort",
+      "pageTitle": "Manjarabad Fort",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\sakleshpur\\Manjarabad Fort.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Manjarabad_Fort_2.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Manjarabad_Fort",
+      "title": "Manjarabad Fort"
+    },
+    {
+      "label": "udupi place: Udupi Sri Krishna Matha",
+      "pageTitle": "Udupi Sri Krishna Matha",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\udupi\\Udupi Sri Krishna Matha.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Udupi_Sri_Krishna_Matha_Temple.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Udupi_Sri_Krishna_Matha",
+      "title": "Udupi Sri Krishna Matha"
+    },
+    {
+      "label": "udupi place: Malpe Beach",
+      "pageTitle": "Malpe Beach",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\udupi\\Malpe Beach.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Malpe_Beach_2.jpg/3840px-Malpe_Beach_2.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Malpe",
+      "title": "Malpe"
+    },
+    {
+      "label": "udupi place: St. Mary's Islands",
+      "pageTitle": "St. Mary's Islands",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\udupi\\St. Mary's Islands.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/St._Mary%27s_islands%2C_Udupi_1767.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/St._Mary's_Islands",
+      "title": "St. Mary's Islands"
+    },
+    {
+      "label": "bidar place: Bidar Fort",
+      "pageTitle": "Bidar Fort",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\bidar\\Bidar Fort.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Gumbaz_Darwaza_of_the_Bidar_fort_%28cropped%29.jpg/3840px-Gumbaz_Darwaza_of_the_Bidar_fort_%28cropped%29.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Bidar_Fort",
+      "title": "Bidar Fort"
+    },
+    {
+      "label": "bidar place: Mahmud Gawan Madrasa",
+      "pageTitle": "Mahmud Gawan Madrasa",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\bidar\\Mahmud Gawan Madrasa.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Complete_view_of_Mahumad_Gawan.JPG/3840px-Complete_view_of_Mahumad_Gawan.JPG",
+      "sourcePage": "https://en.wikipedia.org/wiki/Mahmud_Gawan_Madrasa",
+      "title": "Mahmud Gawan Madrasa"
+    },
+    {
+      "label": "bidar place: Bahmani Tombs",
+      "pageTitle": "Bahmani Tombs",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\bidar\\Bahmani Tombs.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Bahamani_Tombs.JPG",
+      "sourcePage": "https://en.wikipedia.org/wiki/Bahmani_Tombs",
+      "title": "Bahmani Tombs"
+    },
+    {
+      "label": "hoskote place: Hoskote",
+      "pageTitle": "Hoskote",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\hoskote\\Hoskote.jpg",
+      "title": "Hoskote"
+    },
+    {
+      "label": "dandeli place: Dandeli",
+      "pageTitle": "Dandeli",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\dandeli\\Dandeli.jpg",
+      "title": "Dandeli"
+    },
+    {
+      "label": "dandeli place: Kali River (Karnataka)",
+      "pageTitle": "Kali River (Karnataka)",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\dandeli\\Kali River (Karnataka).jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kali_River_620.JPG",
+      "sourcePage": "https://en.wikipedia.org/wiki/Kali_River_(Karnataka)",
+      "title": "Kali River (Karnataka)"
+    },
+    {
+      "label": "dandeli place: Dandeli Wildlife Sanctuary",
+      "pageTitle": "Dandeli Wildlife Sanctuary",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\dandeli\\Dandeli Wildlife Sanctuary.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/The_calm_of_river_kali.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Dandeli_Wildlife_Sanctuary",
+      "title": "Dandeli Wildlife Sanctuary"
+    },
+    {
+      "label": "nagarhole place: Nagarhole National Park",
+      "pageTitle": "Nagarhole National Park",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\nagarhole\\Nagarhole National Park.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Bengal_Tiger_Karnataka.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Nagarhole_National_Park",
+      "title": "Nagarhole National Park"
+    },
+    {
+      "label": "nagarhole place: Kabini River",
+      "pageTitle": "Kabini River",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\nagarhole\\Kabini River.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kabani_River.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Kabini_River",
+      "title": "Kabini River"
+    },
+    {
+      "label": "belgaum place: Belgaum Fort",
+      "pageTitle": "Belgaum Fort",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\belgaum\\Belgaum Fort.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Belgaum_Fort.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Belgaum_Fort",
+      "title": "Belgaum Fort"
+    },
+    {
+      "label": "belgaum place: Gokak Falls",
+      "pageTitle": "Gokak Falls",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\belgaum\\Gokak Falls.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Gokak_Falls_During_Night.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Gokak_Falls",
+      "title": "Gokak Falls"
+    },
+    {
+      "label": "belgaum place: Savadatti Yellamma Temple",
+      "pageTitle": "Savadatti Yellamma Temple",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\belgaum\\Savadatti Yellamma Temple.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Savadatti_Renuka_temple.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASavadatti_Renuka_temple.JPG",
+      "title": "File:Savadatti Renuka temple.JPG"
+    },
+    {
+      "label": "kolar place: Kotilingeshwara",
+      "pageTitle": "Kotilingeshwara",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\kolar\\Kotilingeshwara.jpg",
+      "title": "Kotilingeshwara"
+    },
+    {
+      "label": "kolar place: Kolar Gold Fields",
+      "pageTitle": "Kolar Gold Fields",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\kolar\\Kolar Gold Fields.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Kolar_Gold_Fields_-_1913.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Kolar_Gold_Fields",
+      "title": "Kolar Gold Fields"
+    },
+    {
+      "label": "kolar place: Someshwara Temple, Kolar",
+      "pageTitle": "Someshwara Temple, Kolar",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\kolar\\Someshwara Temple, Kolar.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Rear_view_of_shrine_with_ornate_sikhara%2C_mantapa_half_pillars_and_gopura_of_Someshwara_Temple_at_Kolar.jpg/3840px-Rear_view_of_shrine_with_ornate_sikhara%2C_mantapa_half_pillars_and_gopura_of_Someshwara_Temple_at_Kolar.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Someshwara_Temple%2C_Kolar",
+      "title": "Someshwara Temple, Kolar"
+    },
+    {
+      "label": "hubli place: Chandramouleshwara Temple, Hubli",
+      "pageTitle": "Chandramouleshwara Temple, Hubli",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hubli\\Chandramouleshwara Temple, Hubli.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Chandramouleshwara_temple_Unkal_4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AChandramouleshwara_temple_Unkal_4.JPG",
+      "title": "File:Chandramouleshwara temple Unkal 4.JPG"
+    },
+    {
+      "label": "hubli place: Unkal Lake",
+      "pageTitle": "Unkal Lake",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hubli\\Unkal Lake.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Hubli_unkal_sv.JPG/1920px-Hubli_unkal_sv.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AHubli_unkal_sv.JPG",
+      "title": "File:Hubli unkal sv.JPG"
+    },
+    {
+      "label": "hubli place: Nrupatunga Betta",
+      "pageTitle": "Nrupatunga Betta",
+      "status": "missing-image"
+    },
+    {
+      "label": "manipal place: Manipal",
+      "pageTitle": "Manipal",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\manipal\\Manipal.jpg",
+      "title": "Manipal"
+    },
+    {
+      "label": "manipal place: Hasta Shilpa Heritage Village",
+      "pageTitle": "Hasta Shilpa Heritage Village",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\manipal\\Hasta Shilpa Heritage Village.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Entrance_Structure.jpg/1920px-Entrance_Structure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AEntrance_Structure.jpg",
+      "title": "File:Entrance Structure.jpg"
+    },
+    {
+      "label": "manipal place: Manipal Lake",
+      "pageTitle": "Manipal Lake",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\manipal\\Manipal Lake.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Manipal_Lake_-_MB01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AManipal_Lake_-_MB01.jpg",
+      "title": "File:Manipal Lake - MB01.jpg"
+    },
+    {
+      "label": "shimoga place: Jog Falls",
+      "pageTitle": "Jog Falls",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\shimoga\\Jog Falls.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jog_Falls_05092016.jpg/3840px-Jog_Falls_05092016.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Jog_Falls",
+      "title": "Jog Falls"
+    },
+    {
+      "label": "shimoga place: Shivappanaika Palace Museum",
+      "pageTitle": "Shivappanaika Palace Museum",
+      "status": "missing-image"
+    },
+    {
+      "label": "shimoga place: Sakrebailu Elephant Camp",
+      "pageTitle": "Sakrebailu Elephant Camp",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\shimoga\\Sakrebailu Elephant Camp.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Sakrebailu_elephant_camp_4.jpg/1920px-Sakrebailu_elephant_camp_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ASakrebailu_elephant_camp_4.jpg",
+      "title": "File:Sakrebailu elephant camp 4.jpg"
+    },
+    {
+      "label": "hassan place: Hoysaleswara Temple",
+      "pageTitle": "Hoysaleswara Temple",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hassan\\Hoysaleswara Temple.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Hoysaleshwara_temple_in_Monsoon.JPG",
+      "sourcePage": "https://en.wikipedia.org/wiki/Hoysaleswara_Temple",
+      "title": "Hoysaleswara Temple"
+    },
+    {
+      "label": "hassan place: Chennakeshava Temple, Belur",
+      "pageTitle": "Chennakeshava Temple, Belur",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\hassan\\Chennakeshava Temple, Belur.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Courtyard_of_Chennakesava_Temple_-_Belur.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Chennakeshava_Temple%2C_Belur",
+      "title": "Chennakeshava Temple, Belur"
+    },
+    {
+      "label": "hassan place: Shravanabelagola",
+      "pageTitle": "Shravanabelagola",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\hassan\\Shravanabelagola.jpg",
+      "title": "Shravanabelagola"
+    },
+    {
+      "label": "tumkur place: Devarayanadurga",
+      "pageTitle": "Devarayanadurga",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\tumkur\\Devarayanadurga.jpg",
+      "title": "Devarayanadurga"
+    },
+    {
+      "label": "tumkur place: Namada Chilume",
+      "pageTitle": "Namada Chilume",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\tumkur\\Namada Chilume.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Namada_Chilume.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Namada_Chilume",
+      "title": "Namada Chilume"
+    },
+    {
+      "label": "tumkur place: Siddaganga Matha",
+      "pageTitle": "Siddaganga Matha",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\tumkur\\Siddaganga Matha.png",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/19/Basavanna.png",
+      "sourcePage": "https://en.wikipedia.org/wiki/Siddaganga_Matha",
+      "title": "Siddaganga Matha"
+    },
+    {
+      "label": "gulbarga place: Gulbarga Fort",
+      "pageTitle": "Gulbarga Fort",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\gulbarga\\Gulbarga Fort.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Gulbarga_Fort..jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Gulbarga_Fort",
+      "title": "Gulbarga Fort"
+    },
+    {
+      "label": "gulbarga place: Bande Nawaz Dargah",
+      "pageTitle": "Bande Nawaz Dargah",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\gulbarga\\Bande Nawaz Dargah.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Dargah_of_Banda_Nawaz%2C_Gulbarga..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ADargah_of_Banda_Nawaz%2C_Gulbarga..jpg",
+      "title": "File:Dargah of Banda Nawaz, Gulbarga..jpg"
+    },
+    {
+      "label": "gulbarga place: Sharana Basaveshwara Temple",
+      "pageTitle": "Sharana Basaveshwara Temple",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\gulbarga\\Sharana Basaveshwara Temple.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Gettyedu-2008.78.51-Retouched.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Sharana_Basaveshwara_Temple",
+      "title": "Sharana Basaveshwara Temple"
+    },
+    {
+      "label": "sringeri place: Sringeri Sharada Peetham",
+      "pageTitle": "Sringeri Sharada Peetham",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\sringeri\\Sringeri Sharada Peetham.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Vidyashankara_Temple_at_Shringeri.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Sringeri_Sharada_Peetham",
+      "title": "Sringeri Sharada Peetham"
+    },
+    {
+      "label": "sringeri place: Vidyashankara Temple",
+      "pageTitle": "Vidyashankara Temple",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\sringeri\\Vidyashankara Temple.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Relief_sculpture_of_deities_in_the_Vidyashankara_Temple_at_Shringeri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ARelief_sculpture_of_deities_in_the_Vidyashankara_Temple_at_Shringeri.jpg",
+      "title": "File:Relief sculpture of deities in the Vidyashankara Temple at Shringeri.jpg"
+    },
+    {
+      "label": "sringeri place: Tunga River",
+      "pageTitle": "Tunga River",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\sringeri\\Tunga River.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Tunga_River_Thirthahalli.JPG/3840px-Tunga_River_Thirthahalli.JPG",
+      "sourcePage": "https://en.wikipedia.org/wiki/Tunga_River",
+      "title": "Tunga River"
+    },
+    {
+      "label": "bijapur place: Gol Gumbaz",
+      "pageTitle": "Gol Gumbaz",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\bijapur\\Gol Gumbaz.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Gol_Gumbaj2.JPG/3840px-Gol_Gumbaj2.JPG",
+      "sourcePage": "https://en.wikipedia.org/wiki/Gol_Gumbaz",
+      "title": "Gol Gumbaz"
+    },
+    {
+      "label": "bijapur place: Ibrahim Rauza",
+      "pageTitle": "Ibrahim Rauza",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\bijapur\\Ibrahim Rauza.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ibrahim_Roza.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Ibrahim_Rauza",
+      "title": "Ibrahim Rauza"
+    },
+    {
+      "label": "bijapur place: Bara Kaman",
+      "pageTitle": "Bara Kaman",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\bijapur\\Bara Kaman.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bara_Kaman_2.jpg/3840px-Bara_Kaman_2.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Bara_Kaman",
+      "title": "Bara Kaman"
+    },
+    {
+      "label": "belur place: Chennakeshava Temple, Belur",
+      "pageTitle": "Chennakeshava Temple, Belur",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\belur\\Chennakeshava Temple, Belur.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/The_Courtyard_of_Chennakesava_Temple_-_Belur.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Chennakeshava_Temple%2C_Belur",
+      "title": "Chennakeshava Temple, Belur"
+    },
+    {
+      "label": "belur place: Yagachi Dam",
+      "pageTitle": "Yagachi Dam",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\belur\\Yagachi Dam.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Mysore-_a_gazetteer_compiled_for_government_%28IA_mysoregazetteerc01rice%29.pdf/page1-500px-Mysore-_a_gazetteer_compiled_for_government_%28IA_mysoregazetteerc01rice%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMysore-_a_gazetteer_compiled_for_government_(IA_mysoregazetteerc01rice).pdf",
+      "title": "File:Mysore- a gazetteer compiled for government (IA mysoregazetteerc01rice).pdf"
+    },
+    {
+      "label": "belur place: Hoysala architecture",
+      "pageTitle": "Hoysala architecture",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\belur\\Hoysala architecture.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Close_up_of_Hoysala_style_shrine_and_sikhara_with_decorative_molding_frieze_in_the_Chennakeshava_temple_at_Somanathapura.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Hoysala_architecture",
+      "title": "Hoysala architecture"
+    },
+    {
+      "label": "badami place: Badami cave temples",
+      "pageTitle": "Badami cave temples",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\badami\\Badami cave temples.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Vishnu_image_inside_cave_number_3_in_Badami.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Badami_cave_temples",
+      "title": "Badami cave temples"
+    },
+    {
+      "label": "badami place: Agastya Lake",
+      "pageTitle": "Agastya Lake",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\badami\\Agastya Lake.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Agastya_Lake_-_Badami%2C_views_from_caves_-_hamvrvb102k22_%2835%29.jpg/3840px-Agastya_Lake_-_Badami%2C_views_from_caves_-_hamvrvb102k22_%2835%29.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Agastya_Lake",
+      "title": "Agastya Lake"
+    },
+    {
+      "label": "badami place: Pattadakal",
+      "pageTitle": "Pattadakal",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\badami\\Pattadakal.jpg",
+      "title": "Pattadakal"
+    },
+    {
+      "label": "davangere place: Davangere",
+      "pageTitle": "Davangere",
+      "status": "skipped-existing",
+      "localPath": "src\\assets\\karnataka\\davangere\\Davangere.jpg",
+      "title": "Davangere"
+    },
+    {
+      "label": "davangere place: Kunduvada Lake",
+      "pageTitle": "Kunduvada Lake",
+      "status": "missing-image"
+    },
+    {
+      "label": "davangere place: Harihareshwara Temple",
+      "pageTitle": "Harihareshwara Temple",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\davangere\\Harihareshwara Temple.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Harihareshwara_temple_at_Harihar.JPG/3840px-Harihareshwara_temple_at_Harihar.JPG",
+      "sourcePage": "https://en.wikipedia.org/wiki/Harihareshwara_Temple",
+      "title": "Harihareshwara Temple"
+    },
+    {
+      "label": "chitradurga place: Chitradurga Fort",
+      "pageTitle": "Chitradurga Fort",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\chitradurga\\Chitradurga Fort.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/1_of_7_concentric_walled_layers_of_Chitradurga_fort.jpg/3840px-1_of_7_concentric_walled_layers_of_Chitradurga_fort.jpg",
+      "sourcePage": "https://en.wikipedia.org/wiki/Chitradurga_Fort",
+      "title": "Chitradurga Fort"
+    },
+    {
+      "label": "chitradurga place: Vani Vilasa Sagara",
+      "pageTitle": "Vani Vilasa Sagara",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\chitradurga\\Vani Vilasa Sagara.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Marikanivemod.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AMarikanivemod.jpg",
+      "title": "File:Marikanivemod.jpg"
+    },
+    {
+      "label": "chitradurga place: Chandravalli caves",
+      "pageTitle": "Chandravalli caves",
+      "status": "downloaded",
+      "localPath": "src\\assets\\karnataka\\chitradurga\\Chandravalli caves.jpg",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Lake_outside_Chandravalli_caves_%289131479363%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALake_outside_Chandravalli_caves_(9131479363).jpg",
+      "title": "File:Lake outside Chandravalli caves (9131479363).jpg"
+    }
+  ]
+}
