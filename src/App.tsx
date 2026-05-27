@@ -17,6 +17,10 @@ import RatingReviews from "./sections/RatingReviews";
 import { Kerala, KeralaDistrictPage } from "./pages/Kerala";
 import { Karnataka, KarnatakaDistrictPage } from "./pages/Karnataka";
 import { TamilNadu, DistrictPage } from "./pages/TamilNadu";
+import {
+  AndhraPradesh,
+  AndhraPradeshDistrictPage,
+} from "./pages/AndhraPradesh";
 
 /* ---------- Home Page ---------- */
 const Home = () => {
@@ -48,6 +52,8 @@ export default function App() {
           <Route path="/kerala/:districtSlug" element={<KeralaDistrictPage />} />
           <Route path="/karnataka" element={<Karnataka />} />
           <Route path="/karnataka/:districtSlug" element={<KarnatakaDistrictPage />} />
+          <Route path="/andhrapradesh" element={<AndhraPradesh />} />
+          <Route path="/andhrapradesh/:districtSlug" element={<AndhraPradeshDistrictPage />} />
           <Route path="/tamilnadu" element={<TamilNadu />} />
           <Route path="/tamilnadu/:districtSlug" element={<DistrictPage />} />
         </Routes>
