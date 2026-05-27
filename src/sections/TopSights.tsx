@@ -14,11 +14,25 @@ const stateImages = import.meta.glob(
 // ✅ GRID SPAN PATTERN (UNCHANGED)
 const spanPattern = [3, 3, 2, 2, 2];
 
+const preferredStateOrder = [
+  "tamilnadu",
+  "kerala",
+  "karnataka",
+  "andhrapradesh",
+  "pondicherry",
+  "goa",
+  "telangana",
+];
+
+const titleOverrides: Record<string, string> = {
+  tamilnadu: "Tamil Nadu",
+};
+
 const TopSights: React.FC = () => {
   const navigate = useNavigate();
 
   // ✅ AUTO BUILD DATA FROM FILES
-  const sights = Object.entries(stateImages).map(([path, src], index) => {
+  const sights = Object.entries(stateImages).map(([path, src]) => {
     const file = path.split("/").pop() || "";
     const name = file.replace(/\.[^.]+$/, "");
 
@@ -30,12 +44,24 @@ const TopSights: React.FC = () => {
     const slug = name.toLowerCase().replace(/\s+/g, "");
 
     return {
-      title,
+      title: titleOverrides[slug] || title,
       slug,
       img: src,
-      span: spanPattern[index % spanPattern.length],
     };
-  });
+  })
+    .sort((a, b) => {
+      const aIndex = preferredStateOrder.indexOf(a.slug);
+      const bIndex = preferredStateOrder.indexOf(b.slug);
+
+      if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
+      if (aIndex !== -1) return -1;
+      if (bIndex !== -1) return 1;
+      return a.title.localeCompare(b.title);
+    })
+    .map((sight, index) => ({
+      ...sight,
+      span: spanPattern[index % spanPattern.length],
+    }));
 
   return (
     <section style={{ width: "100%", padding: 40, boxSizing: "border-box" }}>

@@ -29,9 +29,9 @@ export default function MainHero() {
         <Header />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="text-4xl md:text-7xl font-extrabold">Travel more!, Spend less!</h1>
+          <h1 className="text-4xl md:text-7xl font-extrabold">Travel Smarter, Stay Better!</h1>
           <p className="mt-4 text-lg md:text-2xl max-w-xl">
-            Find unique stays across hotels, villas, and more.
+            Explore hotels, villas, and memorable stays for less.
           </p>
           <button className="mt-8 px-8 py-3 bg-[#0092fb] rounded-xl">Explore Now</button>
         </div>

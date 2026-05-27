@@ -62,7 +62,17 @@ const normalize = (path: string) => path.replace(/\\/g, "/").toLowerCase();
 const cleanName = (name: string) =>
   name
     .replace(/\.[^.]+$/, "")
-    .replace(/[-_]/g, " ");
+    .replace(/[-_]/g, " ")
+    .replace(/\s*\(karnataka\)\s*/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b\w/g, (c) => c.toUpperCase());
+
+const createNameKey = (title: string) =>
+  title
+    .toLowerCase()
+    .replace(/\bkarnataka\b/g, "")
+    .replace(/[^a-z0-9]+/g, "");
 
 const createSlug = (title: string) =>
   title
@@ -113,9 +123,16 @@ Object.entries(modules).forEach(([path, src]) => {
   if (!districtMap[folderSlug]) return;
 
   const fileName = parts.pop() || "";
+  const title = cleanName(fileName);
+  const titleKey = createNameKey(title);
+  const isDuplicate = districtMap[folderSlug].sights.some(
+    (sight) => createNameKey(sight.title) === titleKey || sight.img === src
+  );
+
+  if (isDuplicate) return;
 
   districtMap[folderSlug].sights.push({
-    title: cleanName(fileName),
+    title,
     img: src,
   });
 });
