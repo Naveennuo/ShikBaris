@@ -19,7 +19,7 @@ const preferredStateOrder = [
   "kerala",
   "karnataka",
   "andhrapradesh",
-  "pondicherry",
+  "puducherry",
   "goa",
   "telangana",
 ];
@@ -209,3 +209,4 @@ const TopSights: React.FC = () => {
 };
 
 export default TopSights;
+

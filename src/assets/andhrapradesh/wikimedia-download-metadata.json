@@ -1,5 +1,5 @@
 {
-  "downloadedAt": "2026-05-27T07:16:14.961Z",
+  "downloadedAt": "2026-05-28T14:40:38.564Z",
   "assets": [
     {
       "title": "Visakhapatnam",
@@ -35,31 +35,19 @@
       "title": "Borra Caves",
       "query": "Borra Caves",
       "localPath": "src\\assets\\andhrapradesh\\visakhapatnam\\Borra Caves.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Borra_Cave.jpg",
-      "sourceFile": "File:Borra Cave.jpg",
-      "artist": "No machine-readable author provided. Robbygrine assumed (based on copyright claims).",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Kakinada",
       "query": "Kakinada Hope Island",
       "localPath": "src\\assets\\andhrapradesh\\1district\\kakinada.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Satellite_kkd.jpg",
-      "sourceFile": "File:Satellite kkd.jpg",
-      "artist": "NASA",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Coringa Wildlife Sanctuary",
       "query": "Coringa Wildlife Sanctuary",
       "localPath": "src\\assets\\andhrapradesh\\kakinada\\Coringa Wildlife Sanctuary.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_bench_on_the_path_leading_to_Coringa_Wildlife_Sanctuary.jpg",
-      "sourceFile": "File:A bench on the path leading to Coringa Wildlife Sanctuary.jpg",
-      "artist": "iMahesh",
-      "license": "CC BY-SA 4.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Hope Island",
@@ -71,21 +59,13 @@
       "title": "Konaseema",
       "query": "Konaseema Andhra Pradesh",
       "localPath": "src\\assets\\andhrapradesh\\kakinada\\Konaseema.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lush_green_fields_of_Konaseema_Andhra_Pradesh_India.jpg",
-      "sourceFile": "File:Lush green fields of Konaseema Andhra Pradesh India.jpg",
-      "artist": "Adityamadhav83",
-      "license": "CC BY 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Appanapalli Temple",
       "query": "Appanapalli Temple Andhra Pradesh",
       "localPath": "src\\assets\\andhrapradesh\\kakinada\\Appanapalli Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kotikalapudi1.jpg",
-      "sourceFile": "File:Kotikalapudi1.jpg",
-      "artist": "Kotikalapudi S V D Prasad",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Vijayawada",
@@ -97,237 +77,149 @@
       "title": "Kanaka Durga Temple",
       "query": "Kanaka Durga Temple Vijayawada",
       "localPath": "src\\assets\\andhrapradesh\\vijayawada\\Kanaka Durga Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kanaka_Durga_Temple.jpg",
-      "sourceFile": "File:Kanaka Durga Temple.jpg",
-      "artist": "Balajirakonda",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Bhavani Island",
       "query": "Bhavani Island Vijayawada",
       "localPath": "src\\assets\\andhrapradesh\\vijayawada\\Bhavani Island.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Bhavani_Island.jpg",
-      "sourceFile": "File:Bhavani Island.jpg",
-      "artist": "Vin09",
-      "license": "CC BY-SA 4.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Undavalli Caves",
       "query": "Undavalli Caves",
       "localPath": "src\\assets\\andhrapradesh\\vijayawada\\Undavalli Caves.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock_cut_Hindu_temple_in_Undavalli_caves_01.JPG",
-      "sourceFile": "File:Rock cut Hindu temple in Undavalli caves 01.JPG",
-      "artist": "Joshri",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Manginapudi Beach",
       "query": "Manginapudi Beach",
       "localPath": "src\\assets\\andhrapradesh\\vijayawada\\Manginapudi Beach.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Machilipatnam_beach_at_dusk11_09.jpg",
-      "sourceFile": "File:Machilipatnam beach at dusk11 09.jpg",
-      "artist": "Ganeshk",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Ongole",
       "query": "Ongole Andhra Pradesh",
       "localPath": "src\\assets\\andhrapradesh\\1district\\ongole.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:ABM_Junior_College_Ground_Ongole.jpg",
-      "sourceFile": "File:ABM Junior College Ground Ongole.jpg",
-      "artist": "Ongolebull",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Suryalanka Beach",
       "query": "Suryalanka Beach",
       "localPath": "src\\assets\\andhrapradesh\\ongole\\Suryalanka Beach.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Aptdc_cottages_at_suryalanka_beach.JPG",
-      "sourceFile": "File:Aptdc cottages at suryalanka beach.JPG",
-      "artist": "Mdhar m at English Wikipedia",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Kothapatnam Beach",
       "query": "Kothapatnam Beach",
       "localPath": "src\\assets\\andhrapradesh\\ongole\\Kothapatnam Beach.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Kothapatnam-beach.jpg",
-      "sourceFile": "File:Kothapatnam-beach.jpg",
-      "artist": "Rdkreddy430",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Chennakesava Swamy Temple",
       "query": "Chennakesava Swamy Temple Ongole",
-      "status": "failed",
-      "reason": "No Commons image found"
+      "localPath": "src\\assets\\andhrapradesh\\ongole\\Chennakesava Swamy Temple.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Macherla_chennakesava_temple.jpg",
+      "sourceFile": "File:Macherla chennakesava temple.jpg",
+      "artist": "",
+      "license": "Public domain",
+      "status": "downloaded"
     },
     {
       "title": "Nellore",
       "query": "Pulicat Lake",
       "localPath": "src\\assets\\andhrapradesh\\1district\\nellore.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pulicat_Lake.jpg",
-      "sourceFile": "File:Pulicat Lake.jpg",
-      "artist": "Manvendra Bhangui",
-      "license": "CC BY 2.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Pulicat Lake",
       "query": "Pulicat Lake",
       "localPath": "src\\assets\\andhrapradesh\\nellore\\Pulicat Lake.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pulicat_Lake.jpg",
-      "sourceFile": "File:Pulicat Lake.jpg",
-      "artist": "Manvendra Bhangui",
-      "license": "CC BY 2.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Mypadu Beach",
       "query": "Mypadu Beach",
       "localPath": "src\\assets\\andhrapradesh\\nellore\\Mypadu Beach.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beach-nellore-india.JPG",
-      "sourceFile": "File:Beach-nellore-india.JPG",
-      "artist": "Palagiri",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Udayagiri Fort",
       "query": "Udayagiri Fort Andhra Pradesh",
       "localPath": "src\\assets\\andhrapradesh\\nellore\\Udayagiri Fort.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Udayagiri_Fort_(7).jpg",
-      "sourceFile": "File:Udayagiri Fort (7).jpg",
-      "artist": "YVSREDDY",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Tirupati",
       "query": "Tirumala Venkateswara Temple",
       "localPath": "src\\assets\\andhrapradesh\\1district\\tirupati.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_View_of_Tirumala_Venkateswara_Temple.JPG",
-      "sourceFile": "File:A View of Tirumala Venkateswara Temple.JPG",
-      "artist": "Adityamadhav83",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Tirumala Venkateswara Temple",
       "query": "Tirumala Venkateswara Temple",
       "localPath": "src\\assets\\andhrapradesh\\tirupati\\Tirumala Venkateswara Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:A_View_of_Tirumala_Venkateswara_Temple.JPG",
-      "sourceFile": "File:A View of Tirumala Venkateswara Temple.JPG",
-      "artist": "Adityamadhav83",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Sri Kapileswara Swamy Temple",
       "query": "Kapila Theertham Tirupati",
       "localPath": "src\\assets\\andhrapradesh\\tirupati\\Sri Kapileswara Swamy Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Upper_view_of_Kapila_Theertham_waterfalls_Tirupathi.JPG",
-      "sourceFile": "File:Upper view of Kapila Theertham waterfalls Tirupathi.JPG",
-      "artist": "Adityamadhav83",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Talakona Waterfalls",
       "query": "Talakona Waterfalls",
       "localPath": "src\\assets\\andhrapradesh\\tirupati\\Talakona Waterfalls.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Terminalia_pallida_trunk_in_Talakona,_AP_W_IMG_8294.jpg",
-      "sourceFile": "File:Terminalia pallida trunk in Talakona, AP W IMG 8294.jpg",
-      "artist": "J.M.Garg",
-      "license": "CC BY-SA 4.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Chandragiri Fort",
       "query": "Chandragiri Fort Andhra Pradesh",
       "localPath": "src\\assets\\andhrapradesh\\tirupati\\Chandragiri Fort.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chandragiri_Fort_-_Raja_Mahal_(2).jpg",
-      "sourceFile": "File:Chandragiri Fort - Raja Mahal (2).jpg",
-      "artist": "SnapMeUp",
-      "license": "CC BY-SA 4.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Horsley Hills",
       "query": "Horsley Hills",
       "localPath": "src\\assets\\andhrapradesh\\tirupati\\Horsley Hills.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Horsley_Hills.jpg",
-      "sourceFile": "File:Horsley Hills.jpg",
-      "artist": "Sumanth",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Srisailam",
       "query": "Srisailam Mallikarjuna Temple",
       "localPath": "src\\assets\\andhrapradesh\\1district\\srisailam.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Srisailam-temple-entrance.jpg",
-      "sourceFile": "File:Srisailam-temple-entrance.jpg",
-      "artist": "Chintohere",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Mallikarjuna Swamy Temple",
       "query": "Mallikarjuna Jyotirlinga Srisailam",
       "localPath": "src\\assets\\andhrapradesh\\srisailam\\Mallikarjuna Swamy Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Srisailam-temple-entrance.jpg",
-      "sourceFile": "File:Srisailam-temple-entrance.jpg",
-      "artist": "Chintohere",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Srisailam Dam",
       "query": "Srisailam Dam",
       "localPath": "src\\assets\\andhrapradesh\\srisailam\\Srisailam Dam.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Srisailam_Dam_view.jpg",
-      "sourceFile": "File:Srisailam Dam view.jpg",
-      "artist": "IM3847",
-      "license": "CC BY-SA 4.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Mahanandi Temple",
       "query": "Mahanandi Temple",
       "localPath": "src\\assets\\andhrapradesh\\srisailam\\Mahanandi Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Gumbaz_of_Mahanandi_temple..JPG",
-      "sourceFile": "File:Gumbaz of Mahanandi temple..JPG",
-      "artist": "Aryan paswan",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Yaganti Temple",
       "query": "Yaganti Temple",
       "localPath": "src\\assets\\andhrapradesh\\srisailam\\Yaganti Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Yaganti_Gopuram.JPG",
-      "sourceFile": "File:Yaganti Gopuram.JPG",
-      "artist": "Pusulurisudhakara",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Ahobilam",
       "query": "Ahobilam",
       "localPath": "src\\assets\\andhrapradesh\\srisailam\\Ahobilam.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Road_near_Ahobilam_temple.jpg",
-      "sourceFile": "File:Road near Ahobilam temple.jpg",
-      "artist": "Sai Sreekanth",
-      "license": "CC BY-SA 2.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Palakollu",
@@ -339,137 +231,89 @@
       "title": "Ksheerarama Temple",
       "query": "Ksheerarama Temple",
       "localPath": "src\\assets\\andhrapradesh\\palakollu\\Ksheerarama Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:CompleteTempleComplex.jpg",
-      "sourceFile": "File:CompleteTempleComplex.jpg",
-      "artist": "Gopal vemu at English Wikipedia",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Somarama Temple",
       "query": "Somarama Temple Bhimavaram",
       "localPath": "src\\assets\\andhrapradesh\\palakollu\\Somarama Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Somarama_temple_car.jpg",
-      "sourceFile": "File:Somarama temple car.jpg",
-      "artist": "Balajijagadesh",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Kurnool",
       "query": "Belum Caves",
       "localPath": "src\\assets\\andhrapradesh\\1district\\kurnool.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Main_Caves,_Belum,_Andhra_Pradesh.jpg",
-      "sourceFile": "File:The Main Caves, Belum, Andhra Pradesh.jpg",
-      "artist": "Naga Praveena Sharma P",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Belum Caves",
       "query": "Belum Caves",
       "localPath": "src\\assets\\andhrapradesh\\kurnool\\Belum Caves.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Main_Caves,_Belum,_Andhra_Pradesh.jpg",
-      "sourceFile": "File:The Main Caves, Belum, Andhra Pradesh.jpg",
-      "artist": "Naga Praveena Sharma P",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Oravakallu Rock Garden",
       "query": "Oravakallu Rock Garden",
-      "status": "failed",
-      "reason": "No Commons image found"
+      "localPath": "src\\assets\\andhrapradesh\\kurnool\\Oravakallu Rock Garden.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rock_Gardens_Near_Kurnool.jpg",
+      "sourceFile": "File:Rock Gardens Near Kurnool.jpg",
+      "artist": "Poreddy Sagar",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
     },
     {
       "title": "Gandikota",
       "query": "Gandikota",
       "localPath": "src\\assets\\andhrapradesh\\kurnool\\Gandikota.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Madhavaraya_temple_gandikota.jpg",
-      "sourceFile": "File:Madhavaraya temple gandikota.jpg",
-      "artist": "TPN Reddy and tvjagan",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Anantapur",
       "query": "Lepakshi Temple",
       "localPath": "src\\assets\\andhrapradesh\\1district\\anantapur.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sculpture_at_the_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_a.jpg",
-      "sourceFile": "File:Sculpture at the Veerabhadra Temple, Lepakshi, Andhra Pradesh, India a.jpg",
-      "artist": "L. Shyamal",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Lepakshi Temple",
       "query": "Lepakshi Temple",
       "localPath": "src\\assets\\andhrapradesh\\anantapur\\Lepakshi Temple.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sculpture_at_the_Veerabhadra_Temple,_Lepakshi,_Andhra_Pradesh,_India_a.jpg",
-      "sourceFile": "File:Sculpture at the Veerabhadra Temple, Lepakshi, Andhra Pradesh, India a.jpg",
-      "artist": "L. Shyamal",
-      "license": "Public domain",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Penukonda Fort",
       "query": "Penukonda Fort",
       "localPath": "src\\assets\\andhrapradesh\\anantapur\\Penukonda Fort.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sitatirtham_stepped_well.JPG",
-      "sourceFile": "File:Sitatirtham stepped well.JPG",
-      "artist": "Amrutha Sachin",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Prasanthi Nilayam",
       "query": "Prasanthi Nilayam",
       "localPath": "src\\assets\\andhrapradesh\\anantapur\\Prasanthi Nilayam.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:PrashantiNilayam1.jpg",
-      "sourceFile": "File:PrashantiNilayam1.jpg",
-      "artist": "j929",
-      "license": "CC0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Rajahmundry",
       "query": "Godavari Bridge Rajahmundry",
       "localPath": "src\\assets\\andhrapradesh\\1district\\rajahmundry.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:River_Godavari_from_arch_bridge_at_Rajahmundry_01.jpg",
-      "sourceFile": "File:River Godavari from arch bridge at Rajahmundry 01.jpg",
-      "artist": "Adityamadhav83",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Papikondalu",
       "query": "Papikondalu",
       "localPath": "src\\assets\\andhrapradesh\\rajahmundry\\Papikondalu.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Papikondalu_01.jpg",
-      "sourceFile": "File:Papikondalu 01.jpg",
-      "artist": "Srichakra Pranav",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Godavari Bridge",
       "query": "Godavari Bridge Rajahmundry",
       "localPath": "src\\assets\\andhrapradesh\\rajahmundry\\Godavari Bridge.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:River_Godavari_from_arch_bridge_at_Rajahmundry_01.jpg",
-      "sourceFile": "File:River Godavari from arch bridge at Rajahmundry 01.jpg",
-      "artist": "Adityamadhav83",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     },
     {
       "title": "Dowleswaram Barrage",
       "query": "Dowleswaram Barrage",
       "localPath": "src\\assets\\andhrapradesh\\rajahmundry\\Dowleswaram Barrage.jpg",
-      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dowleswaram_Barrage_near_Rajahmundry_on_River_Godavari.jpg",
-      "sourceFile": "File:Dowleswaram Barrage near Rajahmundry on River Godavari.jpg",
-      "artist": "Adityamadhav83",
-      "license": "CC BY-SA 3.0",
-      "status": "downloaded"
+      "status": "exists"
     }
   ]
 }

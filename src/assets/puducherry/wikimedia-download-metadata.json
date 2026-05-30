@@ -1,0 +1,235 @@
+{
+  "downloadedAt": "2026-05-29T19:28:07.611Z",
+  "assets": [
+    {
+      "title": "Puducherry",
+      "query": "Promenade Beach Puducherry",
+      "localPath": "src\\assets\\puducherry\\1district\\puducherry.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beach_Promenade_at_Pondicherry_panorama.jpg",
+      "sourceFile": "File:Beach Promenade at Pondicherry panorama.jpg",
+      "artist": "Sanyam Bahga",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Promenade Beach",
+      "query": "Promenade Beach Puducherry",
+      "localPath": "src\\assets\\puducherry\\puducherry\\Promenade Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beach_Promenade_at_Pondicherry_panorama.jpg",
+      "sourceFile": "File:Beach Promenade at Pondicherry panorama.jpg",
+      "artist": "Sanyam Bahga",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Rock Beach",
+      "query": "Rock Beach Puducherry",
+      "localPath": "src\\assets\\puducherry\\puducherry\\Rock Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pondicherry-Rock_beach_aerial_view.jpg",
+      "sourceFile": "File:Pondicherry-Rock beach aerial view.jpg",
+      "artist": "Karthik Easvur",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Sri Aurobindo Ashram",
+      "query": "Sri Aurobindo Ashram Puducherry",
+      "localPath": "src\\assets\\puducherry\\puducherry\\Sri Aurobindo Ashram.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:GKN_Aurabindo_Pondi_DSC_1031.JPG",
+      "sourceFile": "File:GKN Aurabindo Pondi DSC 1031.JPG",
+      "artist": "Pranchiyettan",
+      "license": "CC BY-SA 2.5 in",
+      "status": "downloaded"
+    },
+    {
+      "title": "French Quarter",
+      "query": "French Quarter Puducherry",
+      "localPath": "src\\assets\\puducherry\\puducherry\\French Quarter.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Puducherry-French_Quarter-WUS02282.jpg",
+      "sourceFile": "File:Puducherry-French Quarter-WUS02282.jpg",
+      "artist": "Rainer Halama",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "White Town",
+      "query": "White Town Puducherry",
+      "localPath": "src\\assets\\puducherry\\puducherry\\White Town.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Streets_of_White_town,_Puducherry.jpg",
+      "sourceFile": "File:Streets of White town, Puducherry.jpg",
+      "artist": "iMahesh",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Auroville",
+      "query": "Matrimandir Auroville",
+      "localPath": "src\\assets\\puducherry\\1district\\auroville.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Matrimandir,_Auroville_Pondicherry.jpg",
+      "sourceFile": "File:Matrimandir, Auroville Pondicherry.jpg",
+      "artist": "Anne Roberts",
+      "license": "CC BY 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Matrimandir",
+      "query": "Matrimandir Auroville",
+      "localPath": "src\\assets\\puducherry\\auroville\\Matrimandir.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Matrimandir,_Auroville_Pondicherry.jpg",
+      "sourceFile": "File:Matrimandir, Auroville Pondicherry.jpg",
+      "artist": "Anne Roberts",
+      "license": "CC BY 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Auroville Beach",
+      "query": "Auroville Beach",
+      "localPath": "src\\assets\\puducherry\\auroville\\Auroville Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:View_of_Pondicherry_Auroville_Beach.jpg",
+      "sourceFile": "File:View of Pondicherry Auroville Beach.jpg",
+      "artist": "Rosh Prakash",
+      "license": "CC0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Visitor's Centre",
+      "query": "Auroville Visitors Centre",
+      "localPath": "src\\assets\\puducherry\\auroville\\Visitor's Centre.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Auroville_tourist_information_centre.jpg",
+      "sourceFile": "File:Auroville tourist information centre.jpg",
+      "artist": "Advanirajesh",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Botanical Gardens",
+      "query": "Auroville Botanical Gardens",
+      "localPath": "src\\assets\\puducherry\\auroville\\Botanical Gardens.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Flickr_-_brewbooks_-_The_New_Gaia_Atlas_of_Planet_Management.jpg",
+      "sourceFile": "File:Flickr - brewbooks - The New Gaia Atlas of Planet Management.jpg",
+      "artist": "brewbooks from near Seattle, USA",
+      "license": "CC BY-SA 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Karaikal",
+      "query": "Karaikal Beach",
+      "localPath": "src\\assets\\puducherry\\1district\\karaikal.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karaikal_beach_-_one_fine_morning.jpg",
+      "sourceFile": "File:Karaikal beach - one fine morning.jpg",
+      "artist": "Prabhu namgyel",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Karaikal Beach",
+      "query": "Karaikal Beach",
+      "localPath": "src\\assets\\puducherry\\karaikal\\Karaikal Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karaikal_beach_-_one_fine_morning.jpg",
+      "sourceFile": "File:Karaikal beach - one fine morning.jpg",
+      "artist": "Prabhu namgyel",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Thirunallar Temple",
+      "query": "Tirunallar Temple",
+      "localPath": "src\\assets\\puducherry\\karaikal\\Thirunallar Temple.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Tirunallar.JPG",
+      "sourceFile": "File:Tirunallar.JPG",
+      "artist": "Jonas Buchholz (Jbuchholz)",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Karaikal Port",
+      "query": "Karaikal Port",
+      "localPath": "src\\assets\\puducherry\\karaikal\\Karaikal Port.png",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Karaikalportlogo.png",
+      "sourceFile": "File:Karaikalportlogo.png",
+      "artist": "Karaikal port",
+      "license": "Public domain",
+      "status": "downloaded"
+    },
+    {
+      "title": "Yanam",
+      "query": "Rajiv Gandhi Beach Yanam",
+      "localPath": "src\\assets\\puducherry\\1district\\yanam.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rajiv_Gandi_Statue_at_Yanam_Beach,_Yanam.jpg",
+      "sourceFile": "File:Rajiv Gandi Statue at Yanam Beach, Yanam.jpg",
+      "artist": "Pranayraj1985",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Rajiv Gandhi Beach",
+      "query": "Rajiv Gandhi Beach Yanam",
+      "localPath": "src\\assets\\puducherry\\yanam\\Rajiv Gandhi Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Rajiv_Gandi_Statue_at_Yanam_Beach,_Yanam.jpg",
+      "sourceFile": "File:Rajiv Gandi Statue at Yanam Beach, Yanam.jpg",
+      "artist": "Pranayraj1985",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Godavari River View",
+      "query": "Godavari river Yanam",
+      "localPath": "src\\assets\\puducherry\\yanam\\Godavari River View.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Koringa_River_at_Yanam_01.jpg",
+      "sourceFile": "File:Koringa River at Yanam 01.jpg",
+      "artist": "Adityamadhav83",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Yanam Tower Clock",
+      "query": "Yanam Tower Clock",
+      "localPath": "src\\assets\\puducherry\\yanam\\Yanam Tower Clock.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:The_Obelisk_Tower,_Yanam.jpg",
+      "sourceFile": "File:The Obelisk Tower, Yanam.jpg",
+      "artist": "Jaya durga Chikkam",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Mahe",
+      "query": "Mahe beach Puducherry",
+      "localPath": "src\\assets\\puducherry\\1district\\mahe.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mah%C3%A9_(India)_Main_Beach.jpg",
+      "sourceFile": "File:Mahé (India) Main Beach.jpg",
+      "artist": "Kondephy",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Mahe Beach",
+      "query": "Mahe Beach Puducherry",
+      "localPath": "src\\assets\\puducherry\\mahe\\Mahe Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mah%C3%A9_(India)_Main_Beach.jpg",
+      "sourceFile": "File:Mahé (India) Main Beach.jpg",
+      "artist": "Kondephy",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "St. Theresa Shrine",
+      "query": "St. Theresa Shrine Mahe",
+      "localPath": "src\\assets\\puducherry\\mahe\\St. Theresa Shrine.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Church_at_Mah%C3%A9,_French_India_period.jpg",
+      "sourceFile": "File:Church at Mahé, French India period.jpg",
+      "artist": "Unknown, probably 1930-1950.",
+      "license": "Public domain",
+      "status": "downloaded"
+    },
+    {
+      "title": "Tagore Park",
+      "query": "Tagore Park Mahe",
+      "localPath": "src\\assets\\puducherry\\mahe\\Tagore Park.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Allamanda_cathartica_pic001.jpg",
+      "sourceFile": "File:Allamanda cathartica pic001.jpg",
+      "artist": "Prabhupuducherry",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    }
+  ]
+}

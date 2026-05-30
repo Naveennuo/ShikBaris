@@ -13,7 +13,6 @@ import Cars from "./sections/Cars";
 import TicketBooking from "./sections/TicketBooking";
 import RatingReviews from "./sections/RatingReviews";
 
-/* ✅ SINGLE FILE IMPORT */
 import { Kerala, KeralaDistrictPage } from "./pages/Kerala";
 import { Karnataka, KarnatakaDistrictPage } from "./pages/Karnataka";
 import { TamilNadu, DistrictPage } from "./pages/TamilNadu";
@@ -21,8 +20,9 @@ import {
   AndhraPradesh,
   AndhraPradeshDistrictPage,
 } from "./pages/AndhraPradesh";
+import { Puducherry, PuducherryDistrictPage } from "./pages/Puducherry";
+import { Goa, GoaDistrictPage } from "./pages/Goa";
 
-/* ---------- Home Page ---------- */
 const Home = () => {
   return (
     <>
@@ -56,6 +56,10 @@ export default function App() {
           <Route path="/andhrapradesh/:districtSlug" element={<AndhraPradeshDistrictPage />} />
           <Route path="/tamilnadu" element={<TamilNadu />} />
           <Route path="/tamilnadu/:districtSlug" element={<DistrictPage />} />
+          <Route path="/puducherry" element={<Puducherry />} />
+          <Route path="/puducherry/:districtSlug" element={<PuducherryDistrictPage />} />
+          <Route path="/goa" element={<Goa />} />
+          <Route path="/goa/:districtSlug" element={<GoaDistrictPage />} />
         </Routes>
 
         <Footer />

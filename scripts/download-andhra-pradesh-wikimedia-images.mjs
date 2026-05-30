@@ -121,6 +121,22 @@ const districts = [
   },
 ];
 
+const exactCommonsFiles = {
+  "Chennakesava Swamy Temple": [
+    "File:Macherla chennakesava temple.jpg",
+    "File:Panoramic view of the ChennaKesava swamy Temple, Markapur.jpg",
+  ],
+  "Oravakallu Rock Garden": [
+    "File:Rock Gardens Near Kurnool.jpg",
+    "File:Orvakal Rock Gardens.jpg",
+    "File:Orvakal rock garden.jpg",
+  ],
+  Palakollu: [
+    "File:Ksheerarama temple, Palakollu.jpg",
+    "File:Pancharamams Ksheerarama Temple West Godavari District AP.jpg",
+  ],
+};
+
 await mkdir(path.join(OUT_ROOT, DISTRICT_DIR), { recursive: true });
 
 const metadata = [];
@@ -168,7 +184,17 @@ async function saveImage({ title, query, targetBase, metadata }) {
   }
 
   try {
-    const image = await findCommonsImage(query);
+    const exactTitles = exactCommonsFiles[title] || exactCommonsFiles[createPrettyTitle(targetBase)] || [];
+    let image = null;
+
+    for (const exactTitle of exactTitles) {
+      image = await getCommonsFileByTitle(exactTitle);
+      if (image) break;
+    }
+
+    if (!image) {
+      image = await findCommonsImage(query);
+    }
 
     if (!image) {
       metadata.push({ title, query, status: "failed", reason: "No Commons image found" });
@@ -242,6 +268,47 @@ async function findCommonsImage(query) {
   return null;
 }
 
+async function getCommonsFileByTitle(fileTitle) {
+  const params = new URLSearchParams({
+    action: "query",
+    format: "json",
+    titles: fileTitle,
+    prop: "imageinfo",
+    iiprop: "url|mime|extmetadata",
+    iiurlwidth: "2000",
+    origin: "*",
+  });
+
+  const response = await fetchWithRetry(`${COMMONS_API}?${params.toString()}`, {
+    headers: { "User-Agent": "ShikBarisImageDownloader/1.0" },
+  });
+
+  if (!response.ok) {
+    throw new Error(`Commons file lookup ${response.status} ${response.statusText}`);
+  }
+
+  const body = await response.json();
+  const pages = Object.values(body.query?.pages || {});
+
+  for (const page of pages) {
+    const imageInfo = page.imageinfo?.[0];
+    if (!imageInfo) continue;
+
+    const mime = imageInfo.mime || "";
+    if (!/^image\/(jpeg|png|webp)$/.test(mime)) continue;
+
+    return {
+      title: page.title,
+      url: imageInfo.thumburl || imageInfo.url,
+      descriptionUrl: imageInfo.descriptionurl,
+      artist: stripHtml(imageInfo.extmetadata?.Artist?.value || ""),
+      license: imageInfo.extmetadata?.LicenseShortName?.value || "",
+    };
+  }
+
+  return null;
+}
+
 async function download(url, target) {
   await mkdir(path.dirname(target), { recursive: true });
 
@@ -264,7 +331,6 @@ async function findExisting(targetBase) {
       await access(target);
       return target;
     } catch {
-      // Keep looking.
     }
   }
 
@@ -277,6 +343,10 @@ function createSlug(title) {
     .replace(/&/g, "and")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+function createPrettyTitle(targetBase) {
+  return path.basename(targetBase).replace(/\.[^.]+$/, "");
 }
 
 function extensionFromUrl(url) {
@@ -314,3 +384,5 @@ async function fetchWithRetry(url, options) {
 
   return response;
 }
+
+

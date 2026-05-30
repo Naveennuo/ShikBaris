@@ -29,7 +29,7 @@ export default function MainHero() {
         <Header />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="text-4xl md:text-7xl font-extrabold">Travel Smarter, Stay Better!</h1>
+          <h1 className="text-4xl md:text-7xl font-extrabold">Travel Smarter! Stay Better!</h1>
           <p className="mt-4 text-lg md:text-2xl max-w-xl">
             Explore hotels, villas, and memorable stays for less.
           </p>

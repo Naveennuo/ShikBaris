@@ -1,0 +1,301 @@
+{
+  "downloadedAt": "2026-05-28T15:19:58.992Z",
+  "assets": [
+    {
+      "title": "Panaji",
+      "query": "Fontainhas Panaji",
+      "localPath": "src\\assets\\goa\\1district\\panaji.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pedestrian_paths_in_between_houses_in_Fontainhas,_Panaji_(04).jpg",
+      "sourceFile": "File:Pedestrian paths in between houses in Fontainhas, Panaji (04).jpg",
+      "artist": "iMahesh",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Miramar Beach",
+      "query": "Miramar Beach Goa",
+      "localPath": "src\\assets\\goa\\panaji\\Miramar Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunset_from_the_Miramar_Beach_in_Goa,_India.jpg",
+      "sourceFile": "File:Sunset from the Miramar Beach in Goa, India.jpg",
+      "artist": "Amit Ingle",
+      "license": "Public domain",
+      "status": "downloaded"
+    },
+    {
+      "title": "Dona Paula",
+      "query": "Dona Paula Goa",
+      "localPath": "src\\assets\\goa\\panaji\\Dona Paula.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dona_Paula,_Panjim.jpg",
+      "sourceFile": "File:Dona Paula, Panjim.jpg",
+      "artist": "Aaron C",
+      "license": "CC BY-SA 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Fontainhas",
+      "query": "Fontainhas Panaji",
+      "localPath": "src\\assets\\goa\\panaji\\Fontainhas.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Pedestrian_paths_in_between_houses_in_Fontainhas,_Panaji_(04).jpg",
+      "sourceFile": "File:Pedestrian paths in between houses in Fontainhas, Panaji (04).jpg",
+      "artist": "iMahesh",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Basilica of Bom Jesus",
+      "query": "Basilica of Bom Jesus",
+      "localPath": "src\\assets\\goa\\panaji\\Basilica of Bom Jesus.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Basilica_of_Bom_Jesus_8_(Old_Goa).jpg",
+      "sourceFile": "File:Basilica of Bom Jesus 8 (Old Goa).jpg",
+      "artist": "Aviatorjk",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Calangute",
+      "query": "Calangute Beach",
+      "localPath": "src\\assets\\goa\\1district\\calangute.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Calangute-Busy-Beach.jpg",
+      "sourceFile": "File:Calangute-Busy-Beach.jpg",
+      "artist": "Uspn",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Calangute Beach",
+      "query": "Calangute Beach",
+      "localPath": "src\\assets\\goa\\calangute\\Calangute Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Calangute-Busy-Beach.jpg",
+      "sourceFile": "File:Calangute-Busy-Beach.jpg",
+      "artist": "Uspn",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Baga Beach",
+      "query": "Baga Beach",
+      "localPath": "src\\assets\\goa\\calangute\\Baga Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:India_-_Goa_-_010_-_Touristy_Baga_Beach.jpg",
+      "sourceFile": "File:India - Goa - 010 - Touristy Baga Beach.jpg",
+      "artist": "McKay Savage",
+      "license": "CC BY 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Candolim Beach",
+      "query": "Candolim Beach",
+      "localPath": "src\\assets\\goa\\calangute\\Candolim Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Candolim_Beach_Goa.jpg",
+      "sourceFile": "File:Candolim Beach Goa.jpg",
+      "artist": "FaizanAhmad21",
+      "license": "CC0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Fort Aguada",
+      "query": "Fort Aguada",
+      "localPath": "src\\assets\\goa\\calangute\\Fort Aguada.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Fort_Aguada_Goa.JPG",
+      "sourceFile": "File:Fort Aguada Goa.JPG",
+      "artist": "Drmarathe",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Anjuna",
+      "query": "Anjuna Beach",
+      "localPath": "src\\assets\\goa\\1district\\anjuna.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anjuna_Beach_25012016.jpg",
+      "sourceFile": "File:Anjuna Beach 25012016.jpg",
+      "artist": "Nikhilb239",
+      "license": "CC BY 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Anjuna Beach",
+      "query": "Anjuna Beach",
+      "localPath": "src\\assets\\goa\\anjuna\\Anjuna Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Anjuna_Beach_25012016.jpg",
+      "sourceFile": "File:Anjuna Beach 25012016.jpg",
+      "artist": "Nikhilb239",
+      "license": "CC BY 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Vagator Beach",
+      "query": "Vagator Beach",
+      "localPath": "src\\assets\\goa\\anjuna\\Vagator Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Vagator_pano_26012016.jpg",
+      "sourceFile": "File:Vagator pano 26012016.jpg",
+      "artist": "Nikhilb239",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Chapora Fort",
+      "query": "Chapora Fort",
+      "localPath": "src\\assets\\goa\\anjuna\\Chapora Fort.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Chapora_Fort_-_Bardez_(turret).jpg",
+      "sourceFile": "File:Chapora Fort - Bardez (turret).jpg",
+      "artist": "Savikagomes",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Ozran Beach",
+      "query": "Ozran Beach Goa",
+      "status": "failed",
+      "reason": "No Commons image found"
+    },
+    {
+      "title": "Margao",
+      "query": "Colva Beach",
+      "localPath": "src\\assets\\goa\\1district\\margao.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beach_of_Colva,_India.jpg",
+      "sourceFile": "File:Beach of Colva, India.jpg",
+      "artist": "",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Colva Beach",
+      "query": "Colva Beach",
+      "localPath": "src\\assets\\goa\\margao\\Colva Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Beach_of_Colva,_India.jpg",
+      "sourceFile": "File:Beach of Colva, India.jpg",
+      "artist": "",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Benaulim Beach",
+      "query": "Benaulim Beach",
+      "localPath": "src\\assets\\goa\\margao\\Benaulim Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:20170811_Benaulim_5527_(37175471743).jpg",
+      "sourceFile": "File:20170811 Benaulim 5527 (37175471743).jpg",
+      "artist": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+      "license": "CC BY-SA 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Varca Beach",
+      "query": "Varca Beach",
+      "localPath": "src\\assets\\goa\\margao\\Varca Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Varca_Beach,_Goa_(5646630827).jpg",
+      "sourceFile": "File:Varca Beach, Goa (5646630827).jpg",
+      "artist": "Andy Mitchell from Glasgow, UK",
+      "license": "CC BY-SA 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Mobor Beach",
+      "query": "Mobor Beach Goa",
+      "localPath": "src\\assets\\goa\\margao\\Mobor Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Mobor_Beach,_Goa,_India_-_panoramio.jpg",
+      "sourceFile": "File:Mobor Beach, Goa, India - panoramio.jpg",
+      "artist": "Айрат Хайруллин",
+      "license": "CC BY 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Palolem",
+      "query": "Palolem Beach",
+      "localPath": "src\\assets\\goa\\1district\\palolem.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goa.in_Palolem_Beach_-_panoramio.jpg",
+      "sourceFile": "File:Goa.in Palolem Beach - panoramio.jpg",
+      "artist": "SINHA",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Palolem Beach",
+      "query": "Palolem Beach",
+      "localPath": "src\\assets\\goa\\palolem\\Palolem Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Goa.in_Palolem_Beach_-_panoramio.jpg",
+      "sourceFile": "File:Goa.in Palolem Beach - panoramio.jpg",
+      "artist": "SINHA",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Butterfly Beach",
+      "query": "Butterfly Beach Goa",
+      "localPath": "src\\assets\\goa\\palolem\\Butterfly Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Butterfly_Beach_-_panoramio.jpg",
+      "sourceFile": "File:Butterfly Beach - panoramio.jpg",
+      "artist": "Deepak Patil",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Agonda Beach",
+      "query": "Agonda Beach",
+      "localPath": "src\\assets\\goa\\palolem\\Agonda Beach.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Agonda_beach_huts.JPG",
+      "sourceFile": "File:Agonda beach huts.JPG",
+      "artist": "Sobarwiki",
+      "license": "Public domain",
+      "status": "downloaded"
+    },
+    {
+      "title": "Cabo de Rama Fort",
+      "query": "Cabo de Rama Fort",
+      "localPath": "src\\assets\\goa\\palolem\\Cabo de Rama Fort.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Cabo_da_Rama_Fort_1,_South_Goa.jpg",
+      "sourceFile": "File:Cabo da Rama Fort 1, South Goa.jpg",
+      "artist": "Rupeshsarkar",
+      "license": "CC BY-SA 4.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Ponda",
+      "query": "Shri Mangueshi Temple",
+      "localPath": "src\\assets\\goa\\1district\\ponda.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shri-Mangesh-Temple,Goa.JPG",
+      "sourceFile": "File:Shri-Mangesh-Temple,Goa.JPG",
+      "artist": "Aruna at Malayalam Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Shri Mangueshi Temple",
+      "query": "Shri Mangeshi Temple",
+      "localPath": "src\\assets\\goa\\ponda\\Shri Mangueshi Temple.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shri_Mangeshi_Temple,_Goa.jpg",
+      "sourceFile": "File:Shri Mangeshi Temple, Goa.jpg",
+      "artist": "Aruna Radhakrishnan",
+      "license": "CC BY 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Shri Shantadurga Temple",
+      "query": "Shanta Durga Temple Goa",
+      "localPath": "src\\assets\\goa\\ponda\\Shri Shantadurga Temple.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Shanta-Durga-Temple,-Ponda.jpg",
+      "sourceFile": "File:Shanta-Durga-Temple,-Ponda.jpg",
+      "artist": "",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Sahakari Spice Farm",
+      "query": "Sahakari Spice Farm",
+      "localPath": "src\\assets\\goa\\ponda\\Sahakari Spice Farm.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sahakari_Spice_Farm_(17311576579).jpg",
+      "sourceFile": "File:Sahakari Spice Farm (17311576579).jpg",
+      "artist": "Ashwin Kumar from Bangalore, India",
+      "license": "CC BY-SA 2.0",
+      "status": "downloaded"
+    },
+    {
+      "title": "Dudhsagar Falls",
+      "query": "Dudhsagar Falls",
+      "localPath": "src\\assets\\goa\\ponda\\Dudhsagar Falls.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Dudhsagar_Falls_FullView.jpg",
+      "sourceFile": "File:Dudhsagar Falls FullView.jpg",
+      "artist": "Purshi",
+      "license": "CC BY-SA 3.0",
+      "status": "downloaded"
+    }
+  ]
+}
