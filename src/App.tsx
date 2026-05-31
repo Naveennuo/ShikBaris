@@ -22,6 +22,10 @@ import {
 } from "./pages/AndhraPradesh";
 import { Puducherry, PuducherryDistrictPage } from "./pages/Puducherry";
 import { Goa, GoaDistrictPage } from "./pages/Goa";
+import {
+  Telangana,
+  TelanganaDistrictPage,
+} from "./pages/Telangana";
 
 const Home = () => {
   return (
@@ -60,6 +64,8 @@ export default function App() {
           <Route path="/puducherry/:districtSlug" element={<PuducherryDistrictPage />} />
           <Route path="/goa" element={<Goa />} />
           <Route path="/goa/:districtSlug" element={<GoaDistrictPage />} />
+          <Route path="/telangana" element={<Telangana />} />
+          <Route path="/telangana/:districtSlug" element={<TelanganaDistrictPage />} />
         </Routes>
 
         <Footer />

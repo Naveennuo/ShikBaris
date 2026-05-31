@@ -1,0 +1,263 @@
+{
+  "downloadedAt": "2026-05-31T19:16:40.462Z",
+  "assets": [
+    {
+      "title": "Hyderabad",
+      "query": "Charminar Hyderabad",
+      "localPath": "src\\assets\\telangana\\1district\\hyderabad.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Charminar",
+      "query": "Charminar Hyderabad",
+      "localPath": "src\\assets\\telangana\\hyderabad\\Charminar.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Golconda Fort",
+      "query": "Golconda Fort Hyderabad",
+      "localPath": "src\\assets\\telangana\\hyderabad\\Golconda Fort.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Hussain Sagar",
+      "query": "Hussain Sagar Hyderabad",
+      "localPath": "src\\assets\\telangana\\hyderabad\\Hussain Sagar.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Ramoji Film City",
+      "query": "Ramoji Film City Hyderabad",
+      "localPath": "src\\assets\\telangana\\hyderabad\\Ramoji Film City.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Salar Jung Museum",
+      "query": "Salar Jung Museum Hyderabad",
+      "localPath": "src\\assets\\telangana\\hyderabad\\Salar Jung Museum.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Warangal",
+      "query": "Warangal Fort Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\warangal.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Warangal Fort",
+      "query": "Warangal Fort Telangana",
+      "localPath": "src\\assets\\telangana\\warangal\\Warangal Fort.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Thousand Pillar Temple",
+      "query": "Thousand Pillar Temple Warangal",
+      "localPath": "src\\assets\\telangana\\warangal\\Thousand Pillar Temple.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Ramappa Temple",
+      "query": "Ramappa Temple Telangana",
+      "localPath": "src\\assets\\telangana\\warangal\\Ramappa Temple.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Laknavaram Lake",
+      "query": "Laknavaram Lake Telangana",
+      "localPath": "src\\assets\\telangana\\warangal\\Laknavaram Lake.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Nagarjuna Sagar",
+      "query": "Nagarjuna Sagar Dam Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\nagarjuna-sagar.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Nagarjuna Sagar Dam",
+      "query": "Nagarjuna Sagar Dam Telangana",
+      "localPath": "src\\assets\\telangana\\nagarjuna-sagar\\Nagarjuna Sagar Dam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Nagarjunakonda",
+      "query": "Nagarjunakonda Telangana",
+      "localPath": "src\\assets\\telangana\\nagarjuna-sagar\\Nagarjunakonda.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Ethipothala Falls",
+      "query": "Ethipothala Falls Telangana",
+      "localPath": "src\\assets\\telangana\\nagarjuna-sagar\\Ethipothala Falls.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Khammam",
+      "query": "Khammam Fort Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\khammam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Khammam Fort",
+      "query": "Khammam Fort Telangana",
+      "localPath": "src\\assets\\telangana\\khammam\\Khammam Fort.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Kinnerasani Wildlife Sanctuary",
+      "query": "Kinnerasani Wildlife Sanctuary Telangana",
+      "localPath": "src\\assets\\telangana\\khammam\\Kinnerasani Wildlife Sanctuary.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Kinnerasani Dam",
+      "query": "Kinnerasani Dam Telangana",
+      "localPath": "src\\assets\\telangana\\khammam\\Kinnerasani Dam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Adilabad",
+      "query": "Kuntala Waterfalls Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\adilabad.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Kuntala Waterfalls",
+      "query": "Kuntala Waterfalls Telangana",
+      "localPath": "src\\assets\\telangana\\adilabad\\Kuntala Waterfalls.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Pochera Waterfalls",
+      "query": "Pochera Waterfalls Telangana",
+      "localPath": "src\\assets\\telangana\\adilabad\\Pochera Waterfalls.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Kawal Wildlife Sanctuary",
+      "query": "Kawal Wildlife Sanctuary Telangana",
+      "localPath": "src\\assets\\telangana\\adilabad\\Kawal Wildlife Sanctuary.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Nizamabad",
+      "query": "Nizamabad Fort Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\nizamabad.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Nizamabad Fort",
+      "query": "Nizamabad Fort Telangana",
+      "localPath": "src\\assets\\telangana\\nizamabad\\Nizamabad Fort.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Alisagar Reservoir",
+      "query": "Alisagar Reservoir Telangana",
+      "localPath": "src\\assets\\telangana\\nizamabad\\Alisagar Reservoir.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Dichpally Ramalayam",
+      "query": "Dichpally Ramalayam Telangana",
+      "localPath": "src\\assets\\telangana\\nizamabad\\Dichpally Ramalayam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Karimnagar",
+      "query": "Elgandal Fort Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\karimnagar.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Elgandal Fort",
+      "query": "Elgandal Fort Telangana",
+      "localPath": "src\\assets\\telangana\\karimnagar\\Elgandal Fort.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Lower Manair Dam",
+      "query": "Lower Manair Dam Telangana",
+      "localPath": "src\\assets\\telangana\\karimnagar\\Lower Manair Dam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Vemulawada Temple",
+      "query": "Vemulawada Temple Telangana",
+      "localPath": "src\\assets\\telangana\\karimnagar\\Vemulawada Temple.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Mahabubnagar",
+      "query": "Pillalamarri Mahabubnagar Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\mahabubnagar.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Pillalamarri",
+      "query": "Pillalamarri Mahabubnagar Telangana",
+      "localPath": "src\\assets\\telangana\\mahabubnagar\\Pillalamarri.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Koilsagar Dam",
+      "query": "Koilsagar Dam Telangana",
+      "localPath": "src\\assets\\telangana\\mahabubnagar\\Koilsagar Dam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Jurala Dam",
+      "query": "Jurala Dam Telangana",
+      "localPath": "src\\assets\\telangana\\mahabubnagar\\Jurala Dam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Medak",
+      "query": "Medak Cathedral Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\medak.png",
+      "status": "exists"
+    },
+    {
+      "title": "Medak Cathedral",
+      "query": "Medak Cathedral Telangana",
+      "localPath": "src\\assets\\telangana\\medak\\Medak Cathedral.png",
+      "status": "exists"
+    },
+    {
+      "title": "Medak Fort",
+      "query": "Medak Fort Telangana",
+      "localPath": "src\\assets\\telangana\\medak\\Medak Fort.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Pocharam Wildlife Sanctuary",
+      "query": "Pocharam Wildlife Sanctuary Telangana",
+      "localPath": "src\\assets\\telangana\\medak\\Pocharam Wildlife Sanctuary.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Bhadrachalam",
+      "query": "Bhadrachalam Temple Telangana",
+      "localPath": "src\\assets\\telangana\\1district\\bhadrachalam.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Sri Sita Ramachandra Swamy Temple",
+      "query": "Bhadrachalam Temple Telangana",
+      "localPath": "src\\assets\\telangana\\bhadrachalam\\Sri Sita Ramachandra Swamy Temple.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Parnasala",
+      "query": "Parnasala Telangana",
+      "localPath": "src\\assets\\telangana\\bhadrachalam\\Parnasala.jpg",
+      "status": "exists"
+    },
+    {
+      "title": "Godavari River Cruise",
+      "query": "Godavari River Bhadrachalam Telangana",
+      "localPath": "src\\assets\\telangana\\bhadrachalam\\Godavari River Cruise.jpg",
+      "status": "exists"
+    }
+  ]
+}
