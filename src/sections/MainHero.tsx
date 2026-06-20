@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "./Header";
 import InternationalTours from "./InternationalTours";
+import SocialIcons from "../components/SocialIcons";
 
 const imgs = [
   new URL("../assets/HeroBanner1.jpg", import.meta.url).href,
@@ -18,7 +19,7 @@ export default function MainHero() {
 
   return (
     <>
-      <section className="relative h-[85vh] md:h-[730px] overflow-hidden rounded-b-[28px]">
+      <section className="relative group h-[85vh] md:h-[730px] overflow-hidden rounded-b-[28px]">
         {imgs.map((img, n) => (
           <img key={n} src={img} className={`absolute inset-0 w-full h-full object-cover transition-opacity ${
             n === i ? "opacity-100" : "opacity-0"
@@ -26,6 +27,7 @@ export default function MainHero() {
         ))}
 
         <div className="absolute inset-0 bg-black/40" />
+        <SocialIcons />
         <Header />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
