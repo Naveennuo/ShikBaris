@@ -7,6 +7,16 @@ const imgs = [
   new URL("../assets/HeroBanner1.jpg", import.meta.url).href,
   new URL("../assets/HeroBanner2.jpg", import.meta.url).href,
   new URL("../assets/HeroBanner3.jpg", import.meta.url).href,
+  new URL("../assets/Tamilnadu.jpg", import.meta.url).href,
+  new URL("../assets/Kerala.jpg", import.meta.url).href,
+  new URL("../assets/Karnataka.jpg", import.meta.url).href,
+  new URL("../assets/Telangana.jpg", import.meta.url).href,
+  new URL("../assets/Goa.jpg", import.meta.url).href,
+  new URL("../assets/Gujarat.jpg", import.meta.url).href,
+  new URL("../assets/Malaysia.jpg", import.meta.url).href,
+  new URL("../assets/Maharashtra.jpg", import.meta.url).href,
+  new URL("../assets/Singapore.webp", import.meta.url).href,
+  new URL("../assets/Pondicherry.jpg", import.meta.url).href,
 ];
 
 export default function MainHero() {
@@ -31,7 +41,7 @@ export default function MainHero() {
         <Header />
 
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-          <h1 className="text-4xl md:text-7xl font-extrabold">Travel Smarter! Stay Better!</h1>
+          <h1 className="text-4xl md:text-7xl font-extrabold">Travel more!, Spend less!</h1>
           <p className="mt-4 text-lg md:text-2xl max-w-xl">
             Explore hotels, villas, and memorable stays for less.
           </p>
